@@ -1,7 +1,7 @@
 # ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 # parametric nb 1
 # N.B. wind must be 1.00000e+00 m/s (Remember the TILT angle)
-# Radius is 48 [m]
+# Radius is 64.8 [m]
 # TSR = 0.00000e+00 ; pitch = 0.00000e+00 deg
 
 BeginParametricString : 1 ;
@@ -52,8 +52,8 @@ EndParametricString : 2 ;
 # ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 # parametric nb 2
 # N.B. wind must be 1.00000e+00 m/s (Remember the TILT angle)
-# Radius is 48 [m]
-# TSR = 1.00531e+01 ; pitch = 0.00000e+00 deg
+# Radius is 64.8 [m]
+# TSR = 1.35717e+01 ; pitch = 0.00000e+00 deg
 
 BeginParametricString : 1 ;
 
@@ -103,8 +103,8 @@ EndParametricString : 2 ;
 # ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 # parametric nb 3
 # N.B. wind must be 1.00000e+00 m/s (Remember the TILT angle)
-# Radius is 48 [m]
-# TSR = 2.01062e+01 ; pitch = 0.00000e+00 deg
+# Radius is 64.8 [m]
+# TSR = 2.71434e+01 ; pitch = 0.00000e+00 deg
 
 BeginParametricString : 1 ;
 
@@ -154,8 +154,8 @@ EndParametricString : 2 ;
 # ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 # parametric nb 4
 # N.B. wind must be 1.00000e+00 m/s (Remember the TILT angle)
-# Radius is 48 [m]
-# TSR = 3.01593e+01 ; pitch = 0.00000e+00 deg
+# Radius is 64.8 [m]
+# TSR = 4.07150e+01 ; pitch = 0.00000e+00 deg
 
 BeginParametricString : 1 ;
 
@@ -205,8 +205,8 @@ EndParametricString : 2 ;
 # ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 # parametric nb 5
 # N.B. wind must be 1.00000e+00 m/s (Remember the TILT angle)
-# Radius is 48 [m]
-# TSR = 4.02124e+01 ; pitch = 0.00000e+00 deg
+# Radius is 64.8 [m]
+# TSR = 5.42867e+01 ; pitch = 0.00000e+00 deg
 
 BeginParametricString : 1 ;
 
@@ -256,8 +256,8 @@ EndParametricString : 2 ;
 # ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 # parametric nb 6
 # N.B. wind must be 1.00000e+00 m/s (Remember the TILT angle)
-# Radius is 48 [m]
-# TSR = 5.02655e+01 ; pitch = 0.00000e+00 deg
+# Radius is 64.8 [m]
+# TSR = 6.78584e+01 ; pitch = 0.00000e+00 deg
 
 BeginParametricString : 1 ;
 
@@ -307,8 +307,8 @@ EndParametricString : 2 ;
 # ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 # parametric nb 7
 # N.B. wind must be 1.00000e+00 m/s (Remember the TILT angle)
-# Radius is 48 [m]
-# TSR = 6.03186e+01 ; pitch = 0.00000e+00 deg
+# Radius is 64.8 [m]
+# TSR = 8.14301e+01 ; pitch = 0.00000e+00 deg
 
 BeginParametricString : 1 ;
 
@@ -358,8 +358,8 @@ EndParametricString : 2 ;
 # ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 # parametric nb 8
 # N.B. wind must be 1.00000e+00 m/s (Remember the TILT angle)
-# Radius is 48 [m]
-# TSR = 7.03717e+01 ; pitch = 0.00000e+00 deg
+# Radius is 64.8 [m]
+# TSR = 9.50018e+01 ; pitch = 0.00000e+00 deg
 
 BeginParametricString : 1 ;
 
@@ -409,8 +409,8 @@ EndParametricString : 2 ;
 # ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 # parametric nb 9
 # N.B. wind must be 1.00000e+00 m/s (Remember the TILT angle)
-# Radius is 48 [m]
-# TSR = 8.04248e+01 ; pitch = 0.00000e+00 deg
+# Radius is 64.8 [m]
+# TSR = 1.08573e+02 ; pitch = 0.00000e+00 deg
 
 BeginParametricString : 1 ;
 
@@ -460,8 +460,8 @@ EndParametricString : 2 ;
 # ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 # parametric nb 10
 # N.B. wind must be 1.00000e+00 m/s (Remember the TILT angle)
-# Radius is 48 [m]
-# TSR = 9.04779e+01 ; pitch = 0.00000e+00 deg
+# Radius is 64.8 [m]
+# TSR = 1.22145e+02 ; pitch = 0.00000e+00 deg
 
 BeginParametricString : 1 ;
 

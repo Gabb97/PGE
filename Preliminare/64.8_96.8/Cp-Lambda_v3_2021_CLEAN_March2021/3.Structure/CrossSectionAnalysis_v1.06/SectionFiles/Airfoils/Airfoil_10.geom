@@ -1,4 +1,4 @@
-Airfoil #10         , Section taken at:15.7241m 
+Airfoil #10         , Section taken at:20.9379m 
 Geometry file obtained by linear interpolation. 
 ============================================================ 
   1.000000   0.007301 

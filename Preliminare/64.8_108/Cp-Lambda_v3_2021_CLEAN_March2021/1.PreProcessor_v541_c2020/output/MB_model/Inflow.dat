@@ -1,0 +1,29 @@
+ Inflows :
+   Inflow :
+    Name : rotor_inflow ;
+    ConnectedTo : rb_hub_centre ;
+    Where : pt_hub_centre ;
+    Triad : inflow_triad ;
+    InflowLengthFactor : 64.8 ;
+    InflowVelocityFactor : 64.8 ;
+    InflowType : BEM ;
+    LiftingLineList : lifting_line_1_1,lifting_line_1_2,lifting_line_1_3 ;
+    NumberOfBlades :  3 ;
+    HubRadius : 1.2 ;
+    TipRadius : 64.8 ;
+    TSRSmoothRange  : 1.0 , 2.0;
+    TgInductionFactorLowerRadius  :6.48;
+   ;
+ ;
+
+
+ Triads : 
+   Triad :
+     Name : inflow_triad ; 
+     YVector :  0 ,  0 , -1 ; 
+     ZVector :  0 ,  1 ,  0 ; 
+     InReferenceFrame : frame_hub ; 
+   ;
+ ; 
+
+

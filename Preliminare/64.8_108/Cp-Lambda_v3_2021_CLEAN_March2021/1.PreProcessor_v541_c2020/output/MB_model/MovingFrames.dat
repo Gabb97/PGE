@@ -1,0 +1,151 @@
+# Frames for sensors
+
+MovingFrames:
+
+    # *******************   BLADES
+
+    MovingFrame:
+        Name        : FrameBlade1RotatingPitchable;
+        ConnectedTo : blade_1_1;
+        Where       : pt_blade_root_1_1;
+        Triad       : TriadBlade1RotatingPitchable;
+    ;
+    MovingFrame:
+        Name        : FrameBlade1RotatingHubFixed;
+        ConnectedTo : rb_blade_fixed_root_1;
+        Where       : pt_blade_root_1_1;
+        Triad       : TriadBlade1RotatingHubFixed;
+    ;
+    MovingFrame:
+        Name        : FrameBlade2RotatingPitchable;
+        ConnectedTo : blade_1_2;
+        Where       : pt_blade_root_1_2;
+        Triad       : TriadBlade2RotatingPitchable;
+    ;
+    MovingFrame:
+        Name        : FrameBlade2RotatingHubFixed;
+        ConnectedTo : rb_blade_fixed_root_2;
+        Where       : pt_blade_root_1_2;
+        Triad       : TriadBlade2RotatingHubFixed;
+    ;
+    MovingFrame:
+        Name        : FrameBlade3RotatingPitchable;
+        ConnectedTo : blade_1_3;
+        Where       : pt_blade_root_1_3;
+        Triad       : TriadBlade3RotatingPitchable;
+    ;
+    MovingFrame:
+        Name        : FrameBlade3RotatingHubFixed;
+        ConnectedTo : rb_blade_fixed_root_3;
+        Where       : pt_blade_root_1_3;
+        Triad       : TriadBlade3RotatingHubFixed;
+    ;
+
+    # *******************   HUB-NACELLE
+
+    MovingFrame:
+        Name        : FrameHubRotating;
+        ConnectedTo : drive_train_shaft_1;
+        Where       : pt_hub_centre;
+        Triad       : TriadFrameHubRotating;
+    ;
+    MovingFrame:
+        Name        : FrameHubFixed;
+        ConnectedTo : drive_train_linker;
+        Where       : pt_generator;
+        Triad       : TriadFrameHubFixed;
+    ;
+    MovingFrame:
+        Name        : FrameHubRotorSpeed;
+        ConnectedTo : drive_train_linker;
+        Where       : pt_generator;
+        Triad       : TriadFrameHubRotorSpeed;
+    ;
+
+    # *******************   TOWER
+
+    MovingFrame:
+        Name        : FrameTowerLocal;
+        ConnectedTo : tower_0;
+        Where       : pt_tower_0;
+        Triad       : TriadTowerLocal;
+    ;
+
+;
+
+
+Triads:
+
+    # *******************   BLADES
+
+    Triad:
+        Name            : TriadBlade1RotatingPitchable ;
+        YVector         : 0 , -1 , 0 ;
+        ZVector         : 1 ,  0 , 0 ;
+        InReferenceFrame: blade_root_frame_1 ;
+    ;
+    Triad:
+        Name            : TriadBlade1RotatingHubFixed ;
+        YVector         : 0 , -1 , 0 ;
+        ZVector         : 1 ,  0 , 0 ;
+        InReferenceFrame: blade_root_frame_1 ;
+    ;
+
+    Triad:
+        Name            : TriadBlade2RotatingPitchable ;
+        YVector         : 0 , -1 , 0 ;
+        ZVector         : 1 ,  0 , 0 ;
+        InReferenceFrame: blade_root_frame_2 ;
+    ;
+    Triad:
+        Name            : TriadBlade2RotatingHubFixed ;
+        YVector         : 0 , -1 , 0 ;
+        ZVector         : 1 ,  0 , 0 ;
+        InReferenceFrame: blade_root_frame_2 ;
+    ;
+
+    Triad:
+        Name            : TriadBlade3RotatingPitchable ;
+        YVector         : 0 , -1 , 0 ;
+        ZVector         : 1 ,  0 , 0 ;
+        InReferenceFrame: blade_root_frame_3 ;
+    ;
+    Triad:
+        Name            : TriadBlade3RotatingHubFixed ;
+        YVector         : 0 , -1 , 0 ;
+        ZVector         : 1 ,  0 , 0 ;
+        InReferenceFrame: blade_root_frame_3 ;
+    ;
+
+    # *******************   HUB-NACELLE
+
+    Triad:
+        Name            : TriadFrameHubRotating ;
+        YVector         : 0 ,  0 ,  1 ;
+        ZVector         : -1 ,  0 ,  0 ;
+        InReferenceFrame: frame_hub ;
+    ;
+    Triad:
+        Name            : TriadFrameHubFixed ;
+        YVector         : 0 ,  0 ,  1 ;
+        ZVector         : -1 ,  0 ,  0 ;
+        InReferenceFrame: frame_hub ;
+    ;
+    Triad:
+        Name            : TriadFrameHubRotorSpeed ;
+        YVector         : 0 ,  0 ,  1 ;
+        ZVector         : 1 ,  0 ,  0 ;
+        InReferenceFrame: frame_hub ;
+    ;
+
+    # *******************   TOWER
+
+    Triad:
+        Name            : TriadTowerLocal ;
+        YVector         : 0 ,  0 ,  1 ;
+        ZVector         : 1 ,  0 ,  0 ;
+        InReferenceFrame: tower_frame ;
+    ;
+
+
+;

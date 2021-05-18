@@ -1,0 +1,79 @@
+%--------------------------------------------------%
+%  In this file will be defined all the generator  %
+%  features                                        %
+%--------------------------------------------------%
+
+%generator type
+   direct drive generator
+
+%Generator Mass [Kg]
+    40000.0
+
+%Distance Between generator and hub centre of mass [m]
+   2
+
+%Generator inertia [Kgm^2] with HSS inertia
+    20000
+
+%------------------------------%
+%   Linear Electrical losses   % Other models in Cp-Lambda
+%------------------------------% 
+
+%No load power loss  [kW]
+    0
+
+%Efficiency [%]
+
+    96
+
+%---------------------------------------%
+%       Mechanical loss torque          %   NOT YET USED BY PPP !
+%---------------------------------------%
+
+% Low speed shaft speed [rpm]      |       Loss torque [Nm] ATTENTION : N*m !!!!!!
+
+           0                                     0
+          250                                    0
+
+
+
+%------------------------------------------%
+%  GENERATOR RPM/TORQUE BEHAVIOUR          %    NOT YET USED BY PPP !
+%------------------------------------------%
+
+% Generator speed [rpm]      |   Generator torque [Nm] NOT USED!
+
+
+     0.00            0
+     5.73        30000
+     6.31        54122
+     6.75        61321
+     7.20        68994
+     7.64        77127
+     8.09        85750
+     8.53        94789
+     8.97       104333
+     9.41       114302
+     9.85       124759
+    10.29       135704
+    10.73       147067
+    11.17       158929
+    11.61       171232
+    12.04       184011
+    12.48       197271
+    12.92       210940
+    13.35       225097
+    13.79       239730
+    14.23       254835
+    14.66       270397
+    15.10       286422
+    15.54       302921
+    15.97       344000
+    16.41       462697
+    16.84       591898
+    17.28       773000
+    17.72       773000
+    18.00       773000
+    19.00       773000
+    20.75       830001
+    21.01       872728

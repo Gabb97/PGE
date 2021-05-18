@@ -1,0 +1,74 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% In this file will be defined the names %
+% of the .dat file which will be used    %
+% within the multibody model             %
+%                                        %
+% N.B. It is important to respect the    %
+% definition order of he keywords        %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%-----blade-------
+ Blade.dat
+%------------------
+
+%-----tower-----
+ Tower.dat
+%------------------
+
+%-----hub-----
+ Hub.dat
+%------------------
+
+%-----sensor-----
+ Sensors.dat
+%------------------
+
+%-----airtable_blade-----
+ Blade_Airtable.dat
+%------------------
+
+%-----blade_point_mass-----
+ Blade_point_masses.dat
+%------------------
+
+%-----generator_and_drive_train-----
+ Generator_and_drive_train.dat
+%------------------
+
+%-----lifting_line_blade-----
+  Blade_Lifting_line.dat
+%------------------
+
+
+%-----lifting_line_hub-----
+    Hub_Lifting_line.dat
+%------------------
+
+%-----liting_line_tower-----
+   Tower_lifting_line.dat
+%------------------
+
+%-----nacelle-----
+   Nacelle.dat
+%------------------
+
+%-----rotor_frame-----
+   Fixed_frames.dat
+%------------------
+
+%-----rvj_pitch_control-----
+    Rvj_pitch_control.dat
+%------------------
+
+%-----rvj_yaw_control-----
+   Rvj_yaw_control.dat
+%------------------
+
+%-----rigid_rotation-----
+Rigid_rotation.dat
+%-------------------------
+
+%-----inflow_model-----
+Inflow.dat
+%-------------------------

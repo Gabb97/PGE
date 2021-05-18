@@ -1,0 +1,27 @@
+:: WARNING 
+:: This will delete the following files in
+:: ALL the subfolders of the present directory
+FOR %%g IN (.\) DO del %%g\*.cnf /s
+FOR %%g IN (.\) DO del %%g\*.afr /s
+FOR %%g IN (.\) DO del %%g\*.amo /s
+FOR %%g IN (.\) DO del %%g\*.anv /s
+FOR %%g IN (.\) DO del %%g\*.cvt /s
+FOR %%g IN (.\) DO del %%g\*.for /s
+FOR %%g IN (.\) DO del %%g\*.mom /s
+FOR %%g IN (.\) DO del %%g\*.msh /s
+FOR %%g IN (.\) DO del %%g\*.Rrcv /s
+FOR %%g IN (.\) DO del %%g\*.str /s
+FOR %%g IN (.\) DO del %%g\*.tmp /s
+FOR %%g IN (.\) DO del %%g\*.vel /s
+FOR %%g IN (.\) DO del %%g\*.ous /s
+FOR %%g IN (.\) DO del %%g\*.out /s
+FOR %%g IN (.\) DO del %%g\*.cnf /s
+FOR %%g IN (.\) DO del %%g\*.evl /s
+FOR %%g IN (.\) DO del %%g\*.evc /s
+FOR %%g IN (.\) DO del %%g\*.mdt /s
+FOR %%g IN (.\) DO del %%g\*.swp /s
+FOR %%g IN (.\) DO del %%g\*.sws /s
+FOR %%g IN (.\) DO del %%g\*.CVF /s
+FOR %%g IN (.\) DO del %%g\*.mat /s
+FOR %%g IN (.\) DO del %%g\*.rcv /s
+FOR %%g IN (.\) DO del %%g\*.html /s

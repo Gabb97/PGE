@@ -1,0 +1,145 @@
+ControlParameters:
+  File : .\output\StaticSimulationOutput;
+  ModelInput        : yes; OutputLevel: 1;
+  ModelAssembly     : yes; OutputLevel: 1;
+  MultibodyAnalysis : yes; OutputLevel: 1;
+  PostProcessing    : yes; OutputLevel: 1;
+  Files4View        : yes;
+  #  ParametricAnalysisParameters :
+  #    NumberOfParametricAnalyses : 12 ;
+  #    File : ./input/ParametricWind.txt ;
+  #    ParametricAnalysisFirstNumber : 1 ;
+  #    ParametricAnalysisFileNameList : _3ms, _5ms, _7ms, _9ms, _11ms, _13ms, _15ms, _17ms, _19ms, _21ms, _23ms, _25ms;
+  #  ;
+;
+
+
+ModelInput:
+
+IncludeCommand :
+     File : .\..\..\..\MB_model\Fixed_frames.dat ;
+     File : .\..\..\..\MB_model\Blade_1.dat ;
+     File : .\..\..\..\MB_model\Blade_2.dat ;
+     File : .\..\..\..\MB_model\Blade_3.dat ;
+     File : .\..\..\..\MB_model\Blade_properties.dat ;
+     File : .\..\..\..\MB_model\Tower.dat ;
+     File : .\..\..\..\MB_model\Hub.dat ;
+     File : .\..\..\..\MB_model\MovingFrames.dat ;
+     File : .\..\..\..\MB_model\Sensors.dat ;
+     File : .\..\..\..\MB_model\Blade_Airtable.dat ;
+     File : .\..\..\..\MB_model\Blade_point_masses.dat ;
+     File : .\..\..\..\MB_model\Generator_and_drive_train.dat ;
+     File : .\..\..\..\MB_model\Blade_Lifting_line_1.dat ;
+     File : .\..\..\..\MB_model\Blade_Lifting_line_2.dat ;
+     File : .\..\..\..\MB_model\Blade_Lifting_line_3.dat ;
+     File : .\..\..\..\MB_model\Blade_Lifting_line_Properties.dat ;
+     File : .\..\..\..\MB_model\Hub_Lifting_line.dat ;
+     File : .\..\..\..\MB_model\Tower_lifting_line.dat ;
+     File : .\..\..\..\MB_model\Nacelle.dat ;
+     File : .\..\..\..\MB_model\Rvj_pitch_control.dat ;
+     File : .\..\..\..\MB_model\Rvj_yaw_control.dat ;
+     File : .\..\..\..\MB_model\Rigid_rotation.dat ;
+     File : .\..\..\..\MB_model\Inflow.dat ;
+     File : .\..\..\..\MB_model\Ground_static.dat ;
+     File : .\..\..\..\MB_model\ControllerStatic.dat ;
+
+     File : .\input\WindModelNoGrid.dat ;
+ ;
+
+TimeFunctions :
+  TimeFunction :
+    Name : control_rigid_rotation ;
+    TimeFunctionType : User_Defined ;
+    NumberOfTerms : 4 ;  
+    Time :   0 ;   FunctionValue : 0 ;
+    Time :   5 ;   FunctionValue : 0 ;
+    Time :  15 ;   FunctionValue : 1.9 ;    
+    Time : 500 ;   FunctionValue : 1.9 ;    
+  ;
+  #TimeFunction :
+  #  Name : blade_pitch_control_1 ;
+  #  TimeFunctionType : User_Defined ;
+  #  NumberOfTerms : 2 ;  
+  #  Time :   0 ;   FunctionValue : 0 ;
+  #  Time : 100 ;   FunctionValue : 0 ;    
+  #;
+  #TimeFunction :
+  #  Name : blade_pitch_control_2 ;
+  #  TimeFunctionType : User_Defined ;
+  #  NumberOfTerms : 2 ;  
+  #  Time :   0 ;   FunctionValue : 0 ;
+  #  Time : 100 ;   FunctionValue : 0 ;    
+  #;
+  #TimeFunction :
+  #  Name : blade_pitch_control_3 ;
+  #  TimeFunctionType : User_Defined ;
+  #  NumberOfTerms : 2 ;  
+  #  Time :   0 ;   FunctionValue : 0 ;
+  #  Time : 100 ;   FunctionValue : 0 ;    
+  #;
+  #TimeFunction :
+  #  Name : yaw_control ;
+  #  TimeFunctionType : User_Defined ;
+  #  NumberOfTerms : 2 ;  
+  #  Time :   0 ;   FunctionValue : 0 ;
+  #  Time : 100 ;   FunctionValue : 0 ;    
+  #;
+  TimeFunction :
+    Name : air_raising ;
+    TimeFunctionType : User_Defined ;
+    NumberOfTerms : 3 ;  
+    Time :   0 ;   FunctionValue : 0 ;
+    Time :   5 ;   FunctionValue : 1 ;    
+    Time : 500 ;   FunctionValue : 1 ;    
+  ;
+  TimeFunction :
+    Name : gravity_schedule ;
+    TimeFunctionType : User_Defined ;
+    NumberOfTerms : 3 ;  
+    Time :   0 ;   FunctionValue : 0 ;
+    Time :   5 ;   FunctionValue : 1 ;    
+    Time : 500 ;   FunctionValue : 1 ;    
+  ;
+;
+Gravity:
+  GravityVector : -9.200 , 0 , 0 ; 
+  TimeFunction : gravity_schedule ;
+ ;
+AirProperties :
+  AirDensity : 1.300 ;
+  SpeedOfSound : 1.4604e-005 ;
+  FarFieldFlowVelocity : 0 , 7 , 0 ;
+  SlopeOfLiftCurve : 1 ;
+  DragCoefficient : 0.5 ;
+  MomentCoefficients : 0 , 0 ;
+  TimeFunction : air_raising ;
+;
+AnimationParameters:
+  TimeStepSize : 1.0E+00;
+;
+;
+ModelAssembly:
+  ModelAssemblyParameters:
+    TypeOfAnalysis: static;
+  ;
+;
+MultibodyAnalysis:
+  SimulationControlParameters:
+    MaximumNumberOfTimeSteps  : 10000;
+    TimeRange                 : 0.0,20;
+    TimeStepSizeRange         : 1,1;
+    ReferenceEnergyValue      : 1e+7;
+  ;
+  InitialConditions:;
+  TimeStepControlParameters:
+    TimeStepSize              : 1 ;
+    FactorizationFrequency    : 1 ;
+    MaximumNumberOfIterations : 30 ;
+    ConvergenceTolerance      : 1.0e-6 ;
+    ArchivalFrequency         : 1 ;
+    MaximumNumberOfTheseSteps : 10000;
+#    NumberOfEigenvalues : 40 ;
+#    EigenproblemPrintFlag : 0 ;    
+  ;
+;
+PostProcessing:;

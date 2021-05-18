@@ -1,0 +1,115 @@
+# *** Written by Matlab 18-Mar-2021 16:30:41
+
+
+# CASE 1 F = 0 [N]
+BeginParametricString : 1 ;
+DeadLoads :
+   DeadLoad :
+       Name : applied_force ;
+       AppliedTo : rb_hub_centre ;
+       Where :     pt_hub_centre ;
+       TimeFunction : force_schedule ;
+       ScalingFactor : 1 ;
+       AppliedForces : 0.0, 0 , 0.0 ;
+       AppliedMoments : 0 , 0 , 0 ;
+ ;
+;
+EndParametricString : 1 ;
+
+
+# CASE 2 F = -300000 [N]
+BeginParametricString : 1 ;
+DeadLoads :
+   DeadLoad :
+       Name : applied_force ;
+       AppliedTo : rb_hub_centre ;
+       Where :     pt_hub_centre ;
+       TimeFunction : force_schedule ;
+       ScalingFactor : 1 ;
+       AppliedForces : 0.0, -300000 , 0.0 ;
+       AppliedMoments : 0 , 0 , 0 ;
+ ;
+;
+EndParametricString : 1 ;
+
+
+# CASE 3 F = -200000 [N]
+BeginParametricString : 1 ;
+DeadLoads :
+   DeadLoad :
+       Name : applied_force ;
+       AppliedTo : rb_hub_centre ;
+       Where :     pt_hub_centre ;
+       TimeFunction : force_schedule ;
+       ScalingFactor : 1 ;
+       AppliedForces : 0.0, -200000 , 0.0 ;
+       AppliedMoments : 0 , 0 , 0 ;
+ ;
+;
+EndParametricString : 1 ;
+
+
+# CASE 4 F = -100000 [N]
+BeginParametricString : 1 ;
+DeadLoads :
+   DeadLoad :
+       Name : applied_force ;
+       AppliedTo : rb_hub_centre ;
+       Where :     pt_hub_centre ;
+       TimeFunction : force_schedule ;
+       ScalingFactor : 1 ;
+       AppliedForces : 0.0, -100000 , 0.0 ;
+       AppliedMoments : 0 , 0 , 0 ;
+ ;
+;
+EndParametricString : 1 ;
+
+
+# CASE 5 F = 100000 [N]
+BeginParametricString : 1 ;
+DeadLoads :
+   DeadLoad :
+       Name : applied_force ;
+       AppliedTo : rb_hub_centre ;
+       Where :     pt_hub_centre ;
+       TimeFunction : force_schedule ;
+       ScalingFactor : 1 ;
+       AppliedForces : 0.0, 100000 , 0.0 ;
+       AppliedMoments : 0 , 0 , 0 ;
+ ;
+;
+EndParametricString : 1 ;
+
+
+# CASE 6 F = 200000 [N]
+BeginParametricString : 1 ;
+DeadLoads :
+   DeadLoad :
+       Name : applied_force ;
+       AppliedTo : rb_hub_centre ;
+       Where :     pt_hub_centre ;
+       TimeFunction : force_schedule ;
+       ScalingFactor : 1 ;
+       AppliedForces : 0.0, 200000 , 0.0 ;
+       AppliedMoments : 0 , 0 , 0 ;
+ ;
+;
+EndParametricString : 1 ;
+
+
+# CASE 7 F = 300000 [N]
+BeginParametricString : 1 ;
+DeadLoads :
+   DeadLoad :
+       Name : applied_force ;
+       AppliedTo : rb_hub_centre ;
+       Where :     pt_hub_centre ;
+       TimeFunction : force_schedule ;
+       ScalingFactor : 1 ;
+       AppliedForces : 0.0, 300000 , 0.0 ;
+       AppliedMoments : 0 , 0 , 0 ;
+ ;
+;
+EndParametricString : 1 ;
+
+

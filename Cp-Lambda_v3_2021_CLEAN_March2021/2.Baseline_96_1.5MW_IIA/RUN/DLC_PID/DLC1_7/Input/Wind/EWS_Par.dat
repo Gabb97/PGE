@@ -1,0 +1,53 @@
+ 
+WindModels: 
+    WindModel: 
+        Name                :   WindModelName; 
+        ConnectedTo         :   rb_hub_centre; 
+        Where               :   pt_hub_centre; 
+        TowerAxis           :   1.0,0.0,0.0; 
+        TowerRoot           :   0.0,0.0,0.0; 
+        # TOWER SHADOW ++++++++++++++++++++++ 
+        TowerShadow  :  YES; 
+            TowerShadowModel    :   Potential; 
+            # TowerShadowModel    :   Downwind; 
+            # TowerShadowModel    :   Combined; 
+            TowerDiameters  : 
+                NumberOfTerms   :   8; 
+                Height  :  0.00000e+00  ; Diameter :  4.00000e+00; 
+                Height  :  1.49942e+01  ; Diameter :  3.80000e+00; 
+                Height  :  2.99963e+01  ; Diameter :  3.30000e+00; 
+                Height  :  4.49984e+01  ; Diameter :  3.00000e+00; 
+                Height  :  5.99926e+01  ; Diameter :  2.90000e+00; 
+                Height  :  7.90000e+01  ; Diameter :  2.30000e+00; 
+                Height  :  7.90100e+01  ; Diameter :  0.00000e+00; 
+                Height  :  1.79000e+02  ; Diameter :  0.00000e+00; 
+            ; 
+            TowerDiameterCorrectionFactor : 1.0; 
+            # MaximunVelocityDeficit        : 0.1; 
+            # TowerShadowWidth              : 1.0; 
+            # ReferencePosition             : 1.0; 
+        # WIND SHEAR ++++++++++++++++++++++++ 
+        WindShearModel  : exponential; 
+        ReferenceHeight :  8.00000e+01; 
+        WindShearExponent: 0.20 ; 
+        # WindShearModel  : logarithmic; 
+        # ReferenceHeight : 60.0; 
+        # GroundRoughnessHeight : 0.0755; 
+        LiftingLineList     :   lifting_line_1_1,lifting_line_1_2,lifting_line_1_3; 
+        # TURBULENCE ++++++++++++++++++++++++ 
+        # Uncomment next line if needed 
+        WindGrid        : EWS ; 
+    ; 
+; 
+
+WindGrids: 
+   WindGrid: 
+       Name             : EWS ; 
+	   GoToParametricString : 1 ; 
+       InReferenceFrame : frame_wind_file; 
+       MeshSize         : 140 , 140 ; 
+       NumberOfIntervals: 9 , 9 ; 
+       NumberOfTimeSteps: 440 ; 
+	   GoToParametricString : 2 ; 
+   ; 
+; 

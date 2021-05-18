@@ -2,7 +2,7 @@
 %              Creazione cartella             %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-0.a) Creare una cartella per ogni simulazione nel formato: RaggioRotore_HubHeight
+0.a) Creare una cartella in Preliminare per ogni simulazione nel formato: RaggioRotore_HubHeight
 
 	Esempio: 57.6_80 --> 	Raggio Rotore: 57.6 m
 				Altezza Hub: 80 m

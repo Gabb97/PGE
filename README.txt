@@ -5,7 +5,7 @@
 0.a) Creare una cartella in Preliminare per ogni simulazione nel formato: RaggioRotore_HubHeight
 
 	Esempio: 57.6_80 --> 	Raggio Rotore: 57.6 m
-				Altezza Hub: 80 m
+												Altezza Hub: 80 m
 0.b) Copiare un CpLambda INTERO E PULITO !!! nella cartella appena creata
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -23,7 +23,7 @@
 2.a) Impostare Rated Electrical Power a 2.7 MW in WTData.xlsx
 2.b) Impostare Hub height al valore assegnato in hub_details.txt
 	--> Impostare Tower height di conseguenza (1 metro sotto all'hub)
-2.c) Impostare Weibull Vave a 10 m/s in WTData.xlsx
+2.c) Impostare Weibull Vave a 10 m/s in WTData.xlsx ( lo fa automaticamente facendo 2.e )
 2.d) Impostare Wind Turbine Category a B in WTData.xlsx
 2.e) Impostare Wind Turbine Class 1 in WTData.xlsx
 2.f) Eseguire il PreProcessor (generare il modello MB)

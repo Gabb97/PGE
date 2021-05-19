@@ -1,0 +1,191 @@
+ LiftingLines :
+  LiftingLine :
+    Name : hub_lifting_line_1 ;
+    Curve : hub_lifting_curve_1 ;
+    Triad : hub_lifting_triad_1 ;
+    LiftingLineProperty : hub_lifting_prop ;
+    Airstations : EQUALLY_SPACED ;
+    NumberOfAirstations :  2 ;
+    AirloadsScheme : 2D_AIRFOIL ;
+    BodyList : rb_blade_fixed_root_1 ;
+   ;
+  LiftingLine :
+    Name : hub_lifting_line_2 ;
+    Curve : hub_lifting_curve_2 ;
+    Triad : hub_lifting_triad_2 ;
+    LiftingLineProperty : hub_lifting_prop ;
+    Airstations : EQUALLY_SPACED ;
+    NumberOfAirstations :  2 ;
+    AirloadsScheme : 2D_AIRFOIL ;
+    BodyList : rb_blade_fixed_root_2 ;
+   ;
+  LiftingLine :
+    Name : hub_lifting_line_3 ;
+    Curve : hub_lifting_curve_3 ;
+    Triad : hub_lifting_triad_3 ;
+    LiftingLineProperty : hub_lifting_prop ;
+    Airstations : EQUALLY_SPACED ;
+    NumberOfAirstations :  2 ;
+    AirloadsScheme : 2D_AIRFOIL ;
+    BodyList : rb_blade_fixed_root_3 ;
+   ;
+ ; 
+
+
+ Curves :
+ Curve : 
+    Name : hub_lifting_curve_1 ; 
+       InReferenceFrame : blade_root_frame_1 ; 
+       Points : 
+       NumberOfControlPoints : 2 ; 
+       DegreeOfCurve : 1 ; 
+       RationalCurveFlag : NO ; 
+       EndPoint0 : pt_hub_centre ; 
+       EndPoint1 : pt_blade_root_1_1 ; 
+       ; 
+       Triads : 
+       NumberOfTerms :  2 ;
+       EtaValue : 0 ;       YVector : 0 , 0 , 1 ;         ZVector : 0 , -1 , 0 ; 
+       EtaValue : 1 ;       YVector : 0 , 0 , 1 ;         ZVector : 0 , -1 , 0 ; 
+    ;
+  ;
+ Curve : 
+    Name : hub_lifting_curve_2 ; 
+       InReferenceFrame : blade_root_frame_2 ; 
+       Points : 
+       NumberOfControlPoints : 2 ; 
+       DegreeOfCurve : 1 ; 
+       RationalCurveFlag : NO ; 
+       EndPoint0 : pt_hub_centre ; 
+       EndPoint1 : pt_blade_root_1_2 ; 
+       ; 
+       Triads : 
+       NumberOfTerms :  2 ;
+       EtaValue : 0 ;       YVector : 0 , 0 , 1 ;         ZVector : 0 , -1 , 0 ; 
+       EtaValue : 1 ;       YVector : 0 , 0 , 1 ;         ZVector : 0 , -1 , 0 ; 
+    ;
+  ;
+ Curve : 
+    Name : hub_lifting_curve_3 ; 
+       InReferenceFrame : blade_root_frame_3 ; 
+       Points : 
+       NumberOfControlPoints : 2 ; 
+       DegreeOfCurve : 1 ; 
+       RationalCurveFlag : NO ; 
+       EndPoint0 : pt_hub_centre ; 
+       EndPoint1 : pt_blade_root_1_3 ; 
+       ; 
+       Triads : 
+       NumberOfTerms :  2 ;
+       EtaValue : 0 ;       YVector : 0 , 0 , 1 ;         ZVector : 0 , -1 , 0 ; 
+       EtaValue : 1 ;       YVector : 0 , 0 , 1 ;         ZVector : 0 , -1 , 0 ; 
+    ;
+  ;
+ ; 
+
+
+ LiftingLineProperties :
+  LiftingLineProperty :
+    Name : hub_lifting_prop ;
+      ChordLengths :
+      NumberOfTerms :  1 ;
+      EtaValue :  0 ;       ChordLength :  0 ;      QuarterChordOffset : -0 ; 
+     ;
+      Airtables :
+      NumberOfTerms :  3 ;
+      EtaValue :  0 ;      Airtable : spinner_airtable ;
+      EtaValue :  1 ;      Airtable : hub_airtable ;
+      EtaValue :  1 ;      Airtable : hub_airtable ;
+     ;
+     ;
+ ;
+
+
+ Triads : 
+   Triad :
+     Name : hub_lifting_triad_1 ; 
+     YVector :  0 ,  1 ,  0 ; 
+     ZVector : -1 ,  0 ,  0 ; 
+     InReferenceFrame : blade_root_frame_1 ; 
+   ;
+ ; 
+
+
+ Triads : 
+   Triad :
+     Name : hub_lifting_triad_2 ; 
+     YVector :  0 ,  1 ,  0 ; 
+     ZVector : -1 ,  0 ,  0 ; 
+     InReferenceFrame : blade_root_frame_2 ; 
+   ;
+ ; 
+
+
+ Triads : 
+   Triad :
+     Name : hub_lifting_triad_3 ; 
+     YVector :  0 ,  1 ,  0 ; 
+     ZVector : -1 ,  0 ,  0 ; 
+     InReferenceFrame : blade_root_frame_3 ; 
+   ;
+ ; 
+
+
+Airtables :
+    Airtable :
+      Name: hub_airtable ; 
+      TableOfLiftCoefficients :
+         NumberOfTerms :          2 ,          3 ;
+                      0                        1  
+         -180             0             0 
+            0             0             0 
+          180             0             0 
+         ;
+      TableOfDragCoefficients : 
+         NumberOfTerms :          2 ,          3;
+                      0                        1  
+         -180           0.6           0.6 
+            0           0.6           0.6 
+          180           0.6           0.6 
+         ;
+      TableOfMomeCoefficients : 
+         NumberOfTerms :          2 ,          3 ;
+                      0                        1  
+         -180             0             0 
+            0             0             0 
+          180             0             0 
+         ;
+#         DynamicStallCoefficientEta:    0.20, 0.20  ;
+#         DynamicStallCoefficientOmega:  0.25, 0.05  ;
+#         DynamicStallCoefficientE:      0.00, 0.00;
+    ;
+  ;
+Airtables :
+    Airtable :
+      Name: spinner_airtable ; 
+      TableOfLiftCoefficients :
+         NumberOfTerms :          2 ,          3 ;
+                      0                        1  
+         -180             0             0 
+            0             0             0 
+          180             0             0 
+         ;
+      TableOfDragCoefficients : 
+         NumberOfTerms :          2 ,          3;
+                      0                        1  
+         -180             0             0 
+            0             0             0 
+          180             0             0 
+         ;
+      TableOfMomeCoefficients : 
+         NumberOfTerms :          2 ,          3 ;
+                      0                        1  
+         -180             0             0 
+            0             0             0 
+          180             0             0 
+         ;
+#         DynamicStallCoefficientEta:    0.20, 0.20  ;
+#         DynamicStallCoefficientOmega:  0.25, 0.05  ;
+#         DynamicStallCoefficientE:      0.00, 0.00;
+    ;
+  ;

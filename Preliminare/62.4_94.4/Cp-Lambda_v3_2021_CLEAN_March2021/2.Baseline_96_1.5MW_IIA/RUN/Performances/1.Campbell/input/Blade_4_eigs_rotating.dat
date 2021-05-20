@@ -1,82 +1,82 @@
-######################################################################            
-#            
-#  VERSION OF THE Cp-Lambda file Blade_1 for Eigen-analysis            
-#            
-######################################################################            
-            
-# INCLUDE POINT MASS for blade 1            
-            
- RigidBodies:            
-  RigidBody :            
-     Name : rb_point_mass_1_1 ;             
-     ConnectedTo : blade_1_1 ;             
-     Where : pt_blade_tip_1_1 ;             
-     ConnectedTo : blade_2_1 ;             
-     Where : pt_blade_root_2_1 ;             
-     Triad : triad_01 ;             
+######################################################################             
+#             
+#  VERSION OF THE Cp-Lambda file Blade_1 for Eigen-analysis             
+#             
+######################################################################             
+             
+# INCLUDE POINT MASS for blade 1             
+             
+ RigidBodies:             
+  RigidBody :             
+     Name : rb_point_mass_1_1 ;              
+     ConnectedTo : blade_1_1 ;              
+     Where : pt_blade_tip_1_1 ;              
+     ConnectedTo : blade_2_1 ;              
+     Where : pt_blade_root_2_1 ;              
+     Triad : triad_01 ;              
+ ;              
+ ;                 
+             
+ Triads :              
+   Triad :             
+     Name : triad_01 ;              
+     YVector :  0 ,  1 ,  0 ;              
+     ZVector :  0 ,  0 ,  1 ;              
+     InReferenceFrame : blade_root_frame_1 ;              
+   ;             
+ ;              
+             
+             
+# INCLUDE NOW rigid body to hub center and clamp             
+             
+Points :             
+  Point :             
+    Name : pt_hub_centre ;             
+    Coordinates :  0 ,  0 ,  0 ;              
+    InReferenceFrame : frame_hub ;              
+   ;             
+;                 
+             
+RigidBodies :             
+  RigidBody :             
+   Name : rvj_pitch_controller_1;             
+   ConnectedTo :clamp;             
+   Where : pt_hub_centre;                    
+   ConnectedTo : blade_1_1;             
+   Where : pt_blade_root_1_1;             
+   Triad : triad_blade_1;             
  ;             
- ;                
-            
- Triads :             
-   Triad :            
-     Name : triad_01 ;             
+;             
+             
+Triads :             
+   Triad :             
+     Name : triad_blade_1;             
      YVector :  0 ,  1 ,  0 ;             
      ZVector :  0 ,  0 ,  1 ;             
      InReferenceFrame : blade_root_frame_1 ;             
-   ;            
- ;             
-            
-            
-# INCLUDE NOW rigid body to hub center and clamp            
-            
-Points :            
-  Point :            
-    Name : pt_hub_centre ;            
-    Coordinates :  0 ,  0 ,  0 ;             
-    InReferenceFrame : frame_hub ;             
-   ;            
-;                
-            
-RigidBodies :            
-  RigidBody :            
-   Name : rvj_pitch_controller_1;            
-   ConnectedTo :clamp;            
-   Where : pt_hub_centre;                   
-   ConnectedTo : blade_1_1;            
-   Where : pt_blade_root_1_1;            
-   Triad : triad_blade_1;            
- ;            
-;            
-            
-Triads :            
-   Triad :            
-     Name : triad_blade_1;            
-     YVector :  0 ,  1 ,  0 ;            
-     ZVector :  0 ,  0 ,  1 ;            
-     InReferenceFrame : blade_root_frame_1 ;            
-   ;            
-;            
-            
-BoundaryConditions :            
-  BoundaryCondition :            
-   Name : clamp ;            
-   AppliedTo : rvj_pitch_controller_1;            
-   Where : pt_hub_centre ;                 
-   DisplacementBoundaryConditions :  1 ,  1 ,  1 ;            
-   RotationBoundaryConditions :  1 ,  1 ,  1 ;            
-  ;            
-;            
-            
-# AND RIGID ROTATION ALONG shaft axis (REMEMBER TO CHECK THE NACELLE-TILT ANGLE)            
-            
-RigidRotations :            
-    RigidRotation :            
-     Name : rigid_rotation ;            
-     ConnectedTo :rvj_pitch_controller_1 ;            
-     Where : pt_hub_centre ;            
-     TimeFunction : control_rigid_rotation ;            
-     AngularVelocity :  -8.715574e-02 , 9.961947e-01 , 0.000000e+00 ;    # Modified by MATLAB on: 19-May-2021 16:58:43 
-     BodyList : blade_1_1, blade_2_1, rb_point_mass_1_1 ;             
-    ;            
-;            
-            
+   ;             
+;             
+             
+BoundaryConditions :             
+  BoundaryCondition :             
+   Name : clamp ;             
+   AppliedTo : rvj_pitch_controller_1;             
+   Where : pt_hub_centre ;                  
+   DisplacementBoundaryConditions :  1 ,  1 ,  1 ;             
+   RotationBoundaryConditions :  1 ,  1 ,  1 ;             
+  ;             
+;             
+             
+# AND RIGID ROTATION ALONG shaft axis (REMEMBER TO CHECK THE NACELLE-TILT ANGLE)             
+             
+RigidRotations :             
+    RigidRotation :             
+     Name : rigid_rotation ;             
+     ConnectedTo :rvj_pitch_controller_1 ;             
+     Where : pt_hub_centre ;             
+     TimeFunction : control_rigid_rotation ;             
+     AngularVelocity :  -8.715574e-02 , 9.961947e-01 , 0.000000e+00 ;    # Modified by MATLAB on: 20-May-2021 11:04:41 
+     BodyList : blade_1_1, blade_2_1, rb_point_mass_1_1 ;              
+    ;             
+;             
+             

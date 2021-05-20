@@ -1,0 +1,8 @@
+Sensors :                      
+    Sensor :                       
+    Name : hub_displacements ;
+    RigidBody : rb_hub_centre ; 
+    Sensing : Displacements_0 ; 
+    InReferenceFrame : INERTIAL ;   
+   ;                              
+;                              

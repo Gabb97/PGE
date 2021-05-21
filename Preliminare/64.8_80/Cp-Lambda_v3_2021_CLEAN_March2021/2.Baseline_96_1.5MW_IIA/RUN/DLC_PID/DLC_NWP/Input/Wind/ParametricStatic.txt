@@ -1,7 +1,7 @@
 # ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 # parametric nb 1
 # N.B. wind is 3 m/s (Remember the TILT angle)
-# omega = 4.72558e+00 [rpm]; pitch = -8.46589e-01 [deg]
+# omega = 3.97707e+00 [rpm]; pitch = -1.72561e+00 [deg]
 
 BeginParametricString : 1 ;
 
@@ -10,32 +10,32 @@ BeginParametricString : 1 ;
     TimeFunctionType : User_Defined ;
     NumberOfTerms : 3 ;
     Time :    0 ;   FunctionValue : 0 ;
-    Time :  1.5 ;   FunctionValue : 4.94861648e-01 ;
-    Time : 1000 ;   FunctionValue : 4.94861648e-01 ;
+    Time :  1.5 ;   FunctionValue : 4.16477690e-01 ;
+    Time : 1000 ;   FunctionValue : 4.16477690e-01 ;
   ;
   TimeFunction :
     Name : blade_pitch_control_1 ;
     TimeFunctionType : User_Defined ;
     NumberOfTerms : 3 ;
     Time :    0 ;   FunctionValue : 0.00000000e+00 ;
-    Time :  1.5 ;   FunctionValue : -1.47757587e-02 ;
-    Time : 1000 ;   FunctionValue : -1.47757587e-02 ;
+    Time :  1.5 ;   FunctionValue : -3.01176545e-02 ;
+    Time : 1000 ;   FunctionValue : -3.01176545e-02 ;
   ;
   TimeFunction :
     Name : blade_pitch_control_2 ;
     TimeFunctionType : User_Defined ;
     NumberOfTerms : 3 ;
     Time :    0 ;   FunctionValue : 0.00000000e+00 ;
-    Time :  1.5 ;   FunctionValue : -1.47757587e-02 ;
-    Time : 1000 ;   FunctionValue : -1.47757587e-02 ;
+    Time :  1.5 ;   FunctionValue : -3.01176545e-02 ;
+    Time : 1000 ;   FunctionValue : -3.01176545e-02 ;
   ;
   TimeFunction :
     Name : blade_pitch_control_3 ;
     TimeFunctionType : User_Defined ;
     NumberOfTerms : 3 ;
     Time :    0 ;   FunctionValue : 0.00000000e+00 ;
-    Time :  1.5 ;   FunctionValue : -1.47757587e-02 ;
-    Time : 1000 ;   FunctionValue : -1.47757587e-02 ;
+    Time :  1.5 ;   FunctionValue : -3.01176545e-02 ;
+    Time : 1000 ;   FunctionValue : -3.01176545e-02 ;
   ;
 
 EndParametricString : 1 ;
@@ -49,7 +49,7 @@ EndParametricString : 2 ;
 # ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 # parametric nb 2
 # N.B. wind is 5 m/s (Remember the TILT angle)
-# omega = 7.87597e+00 [rpm]; pitch = -8.46589e-01 [deg]
+# omega = 6.62845e+00 [rpm]; pitch = -1.72561e+00 [deg]
 
 BeginParametricString : 1 ;
 
@@ -58,32 +58,32 @@ BeginParametricString : 1 ;
     TimeFunctionType : User_Defined ;
     NumberOfTerms : 3 ;
     Time :    0 ;   FunctionValue : 0 ;
-    Time :  1.5 ;   FunctionValue : 8.24769414e-01 ;
-    Time : 1000 ;   FunctionValue : 8.24769414e-01 ;
+    Time :  1.5 ;   FunctionValue : 6.94129483e-01 ;
+    Time : 1000 ;   FunctionValue : 6.94129483e-01 ;
   ;
   TimeFunction :
     Name : blade_pitch_control_1 ;
     TimeFunctionType : User_Defined ;
     NumberOfTerms : 3 ;
     Time :    0 ;   FunctionValue : 0.00000000e+00 ;
-    Time :  1.5 ;   FunctionValue : -1.47757587e-02 ;
-    Time : 1000 ;   FunctionValue : -1.47757587e-02 ;
+    Time :  1.5 ;   FunctionValue : -3.01176545e-02 ;
+    Time : 1000 ;   FunctionValue : -3.01176545e-02 ;
   ;
   TimeFunction :
     Name : blade_pitch_control_2 ;
     TimeFunctionType : User_Defined ;
     NumberOfTerms : 3 ;
     Time :    0 ;   FunctionValue : 0.00000000e+00 ;
-    Time :  1.5 ;   FunctionValue : -1.47757587e-02 ;
-    Time : 1000 ;   FunctionValue : -1.47757587e-02 ;
+    Time :  1.5 ;   FunctionValue : -3.01176545e-02 ;
+    Time : 1000 ;   FunctionValue : -3.01176545e-02 ;
   ;
   TimeFunction :
     Name : blade_pitch_control_3 ;
     TimeFunctionType : User_Defined ;
     NumberOfTerms : 3 ;
     Time :    0 ;   FunctionValue : 0.00000000e+00 ;
-    Time :  1.5 ;   FunctionValue : -1.47757587e-02 ;
-    Time : 1000 ;   FunctionValue : -1.47757587e-02 ;
+    Time :  1.5 ;   FunctionValue : -3.01176545e-02 ;
+    Time : 1000 ;   FunctionValue : -3.01176545e-02 ;
   ;
 
 EndParametricString : 1 ;
@@ -97,7 +97,7 @@ EndParametricString : 2 ;
 # ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 # parametric nb 3
 # N.B. wind is 7 m/s (Remember the TILT angle)
-# omega = 1.10264e+01 [rpm]; pitch = -8.46589e-01 [deg]
+# omega = 9.27983e+00 [rpm]; pitch = -1.72561e+00 [deg]
 
 BeginParametricString : 1 ;
 
@@ -106,32 +106,32 @@ BeginParametricString : 1 ;
     TimeFunctionType : User_Defined ;
     NumberOfTerms : 3 ;
     Time :    0 ;   FunctionValue : 0 ;
-    Time :  1.5 ;   FunctionValue : 1.15467718e+00 ;
-    Time : 1000 ;   FunctionValue : 1.15467718e+00 ;
+    Time :  1.5 ;   FunctionValue : 9.71781277e-01 ;
+    Time : 1000 ;   FunctionValue : 9.71781277e-01 ;
   ;
   TimeFunction :
     Name : blade_pitch_control_1 ;
     TimeFunctionType : User_Defined ;
     NumberOfTerms : 3 ;
     Time :    0 ;   FunctionValue : 0.00000000e+00 ;
-    Time :  1.5 ;   FunctionValue : -1.47757587e-02 ;
-    Time : 1000 ;   FunctionValue : -1.47757587e-02 ;
+    Time :  1.5 ;   FunctionValue : -3.01176545e-02 ;
+    Time : 1000 ;   FunctionValue : -3.01176545e-02 ;
   ;
   TimeFunction :
     Name : blade_pitch_control_2 ;
     TimeFunctionType : User_Defined ;
     NumberOfTerms : 3 ;
     Time :    0 ;   FunctionValue : 0.00000000e+00 ;
-    Time :  1.5 ;   FunctionValue : -1.47757587e-02 ;
-    Time : 1000 ;   FunctionValue : -1.47757587e-02 ;
+    Time :  1.5 ;   FunctionValue : -3.01176545e-02 ;
+    Time : 1000 ;   FunctionValue : -3.01176545e-02 ;
   ;
   TimeFunction :
     Name : blade_pitch_control_3 ;
     TimeFunctionType : User_Defined ;
     NumberOfTerms : 3 ;
     Time :    0 ;   FunctionValue : 0.00000000e+00 ;
-    Time :  1.5 ;   FunctionValue : -1.47757587e-02 ;
-    Time : 1000 ;   FunctionValue : -1.47757587e-02 ;
+    Time :  1.5 ;   FunctionValue : -3.01176545e-02 ;
+    Time : 1000 ;   FunctionValue : -3.01176545e-02 ;
   ;
 
 EndParametricString : 1 ;
@@ -145,7 +145,7 @@ EndParametricString : 2 ;
 # ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 # parametric nb 4
 # N.B. wind is 9 m/s (Remember the TILT angle)
-# omega = 1.40350e+01 [rpm]; pitch = 1.05705e+00 [deg]
+# omega = 1.09051e+01 [rpm]; pitch = -1.99979e+00 [deg]
 
 BeginParametricString : 1 ;
 
@@ -154,32 +154,32 @@ BeginParametricString : 1 ;
     TimeFunctionType : User_Defined ;
     NumberOfTerms : 3 ;
     Time :    0 ;   FunctionValue : 0 ;
-    Time :  1.5 ;   FunctionValue : 1.46973958e+00 ;
-    Time : 1000 ;   FunctionValue : 1.46973958e+00 ;
+    Time :  1.5 ;   FunctionValue : 1.14197531e+00 ;
+    Time : 1000 ;   FunctionValue : 1.14197531e+00 ;
   ;
   TimeFunction :
     Name : blade_pitch_control_1 ;
     TimeFunctionType : User_Defined ;
     NumberOfTerms : 3 ;
     Time :    0 ;   FunctionValue : 0.00000000e+00 ;
-    Time :  1.5 ;   FunctionValue : 1.84489423e-02 ;
-    Time : 1000 ;   FunctionValue : 1.84489423e-02 ;
+    Time :  1.5 ;   FunctionValue : -3.49029302e-02 ;
+    Time : 1000 ;   FunctionValue : -3.49029302e-02 ;
   ;
   TimeFunction :
     Name : blade_pitch_control_2 ;
     TimeFunctionType : User_Defined ;
     NumberOfTerms : 3 ;
     Time :    0 ;   FunctionValue : 0.00000000e+00 ;
-    Time :  1.5 ;   FunctionValue : 1.84489423e-02 ;
-    Time : 1000 ;   FunctionValue : 1.84489423e-02 ;
+    Time :  1.5 ;   FunctionValue : -3.49029302e-02 ;
+    Time : 1000 ;   FunctionValue : -3.49029302e-02 ;
   ;
   TimeFunction :
     Name : blade_pitch_control_3 ;
     TimeFunctionType : User_Defined ;
     NumberOfTerms : 3 ;
     Time :    0 ;   FunctionValue : 0.00000000e+00 ;
-    Time :  1.5 ;   FunctionValue : 1.84489423e-02 ;
-    Time : 1000 ;   FunctionValue : 1.84489423e-02 ;
+    Time :  1.5 ;   FunctionValue : -3.49029302e-02 ;
+    Time : 1000 ;   FunctionValue : -3.49029302e-02 ;
   ;
 
 EndParametricString : 1 ;
@@ -193,7 +193,7 @@ EndParametricString : 2 ;
 # ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 # parametric nb 5
 # N.B. wind is 11 m/s (Remember the TILT angle)
-# omega = 1.40350e+01 [rpm]; pitch = 7.91274e+00 [deg]
+# omega = 1.09051e+01 [rpm]; pitch = 6.12285e+00 [deg]
 
 BeginParametricString : 1 ;
 
@@ -202,32 +202,32 @@ BeginParametricString : 1 ;
     TimeFunctionType : User_Defined ;
     NumberOfTerms : 3 ;
     Time :    0 ;   FunctionValue : 0 ;
-    Time :  1.5 ;   FunctionValue : 1.46973958e+00 ;
-    Time : 1000 ;   FunctionValue : 1.46973958e+00 ;
+    Time :  1.5 ;   FunctionValue : 1.14197531e+00 ;
+    Time : 1000 ;   FunctionValue : 1.14197531e+00 ;
   ;
   TimeFunction :
     Name : blade_pitch_control_1 ;
     TimeFunctionType : User_Defined ;
     NumberOfTerms : 3 ;
     Time :    0 ;   FunctionValue : 0.00000000e+00 ;
-    Time :  1.5 ;   FunctionValue : 1.38103384e-01 ;
-    Time : 1000 ;   FunctionValue : 1.38103384e-01 ;
+    Time :  1.5 ;   FunctionValue : 1.06863809e-01 ;
+    Time : 1000 ;   FunctionValue : 1.06863809e-01 ;
   ;
   TimeFunction :
     Name : blade_pitch_control_2 ;
     TimeFunctionType : User_Defined ;
     NumberOfTerms : 3 ;
     Time :    0 ;   FunctionValue : 0.00000000e+00 ;
-    Time :  1.5 ;   FunctionValue : 1.38103384e-01 ;
-    Time : 1000 ;   FunctionValue : 1.38103384e-01 ;
+    Time :  1.5 ;   FunctionValue : 1.06863809e-01 ;
+    Time : 1000 ;   FunctionValue : 1.06863809e-01 ;
   ;
   TimeFunction :
     Name : blade_pitch_control_3 ;
     TimeFunctionType : User_Defined ;
     NumberOfTerms : 3 ;
     Time :    0 ;   FunctionValue : 0.00000000e+00 ;
-    Time :  1.5 ;   FunctionValue : 1.38103384e-01 ;
-    Time : 1000 ;   FunctionValue : 1.38103384e-01 ;
+    Time :  1.5 ;   FunctionValue : 1.06863809e-01 ;
+    Time : 1000 ;   FunctionValue : 1.06863809e-01 ;
   ;
 
 EndParametricString : 1 ;
@@ -241,7 +241,7 @@ EndParametricString : 2 ;
 # ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 # parametric nb 6
 # N.B. wind is 13 m/s (Remember the TILT angle)
-# omega = 1.40350e+01 [rpm]; pitch = 1.18419e+01 [deg]
+# omega = 1.09051e+01 [rpm]; pitch = 1.02259e+01 [deg]
 
 BeginParametricString : 1 ;
 
@@ -250,32 +250,32 @@ BeginParametricString : 1 ;
     TimeFunctionType : User_Defined ;
     NumberOfTerms : 3 ;
     Time :    0 ;   FunctionValue : 0 ;
-    Time :  1.5 ;   FunctionValue : 1.46973958e+00 ;
-    Time : 1000 ;   FunctionValue : 1.46973958e+00 ;
+    Time :  1.5 ;   FunctionValue : 1.14197531e+00 ;
+    Time : 1000 ;   FunctionValue : 1.14197531e+00 ;
   ;
   TimeFunction :
     Name : blade_pitch_control_1 ;
     TimeFunctionType : User_Defined ;
     NumberOfTerms : 3 ;
     Time :    0 ;   FunctionValue : 0.00000000e+00 ;
-    Time :  1.5 ;   FunctionValue : 2.06680258e-01 ;
-    Time : 1000 ;   FunctionValue : 2.06680258e-01 ;
+    Time :  1.5 ;   FunctionValue : 1.78476263e-01 ;
+    Time : 1000 ;   FunctionValue : 1.78476263e-01 ;
   ;
   TimeFunction :
     Name : blade_pitch_control_2 ;
     TimeFunctionType : User_Defined ;
     NumberOfTerms : 3 ;
     Time :    0 ;   FunctionValue : 0.00000000e+00 ;
-    Time :  1.5 ;   FunctionValue : 2.06680258e-01 ;
-    Time : 1000 ;   FunctionValue : 2.06680258e-01 ;
+    Time :  1.5 ;   FunctionValue : 1.78476263e-01 ;
+    Time : 1000 ;   FunctionValue : 1.78476263e-01 ;
   ;
   TimeFunction :
     Name : blade_pitch_control_3 ;
     TimeFunctionType : User_Defined ;
     NumberOfTerms : 3 ;
     Time :    0 ;   FunctionValue : 0.00000000e+00 ;
-    Time :  1.5 ;   FunctionValue : 2.06680258e-01 ;
-    Time : 1000 ;   FunctionValue : 2.06680258e-01 ;
+    Time :  1.5 ;   FunctionValue : 1.78476263e-01 ;
+    Time : 1000 ;   FunctionValue : 1.78476263e-01 ;
   ;
 
 EndParametricString : 1 ;
@@ -289,7 +289,7 @@ EndParametricString : 2 ;
 # ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 # parametric nb 7
 # N.B. wind is 15 m/s (Remember the TILT angle)
-# omega = 1.40350e+01 [rpm]; pitch = 1.51056e+01 [deg]
+# omega = 1.09051e+01 [rpm]; pitch = 1.35847e+01 [deg]
 
 BeginParametricString : 1 ;
 
@@ -298,32 +298,32 @@ BeginParametricString : 1 ;
     TimeFunctionType : User_Defined ;
     NumberOfTerms : 3 ;
     Time :    0 ;   FunctionValue : 0 ;
-    Time :  1.5 ;   FunctionValue : 1.46973958e+00 ;
-    Time : 1000 ;   FunctionValue : 1.46973958e+00 ;
+    Time :  1.5 ;   FunctionValue : 1.14197531e+00 ;
+    Time : 1000 ;   FunctionValue : 1.14197531e+00 ;
   ;
   TimeFunction :
     Name : blade_pitch_control_1 ;
     TimeFunctionType : User_Defined ;
     NumberOfTerms : 3 ;
     Time :    0 ;   FunctionValue : 0.00000000e+00 ;
-    Time :  1.5 ;   FunctionValue : 2.63643119e-01 ;
-    Time : 1000 ;   FunctionValue : 2.63643119e-01 ;
+    Time :  1.5 ;   FunctionValue : 2.37097347e-01 ;
+    Time : 1000 ;   FunctionValue : 2.37097347e-01 ;
   ;
   TimeFunction :
     Name : blade_pitch_control_2 ;
     TimeFunctionType : User_Defined ;
     NumberOfTerms : 3 ;
     Time :    0 ;   FunctionValue : 0.00000000e+00 ;
-    Time :  1.5 ;   FunctionValue : 2.63643119e-01 ;
-    Time : 1000 ;   FunctionValue : 2.63643119e-01 ;
+    Time :  1.5 ;   FunctionValue : 2.37097347e-01 ;
+    Time : 1000 ;   FunctionValue : 2.37097347e-01 ;
   ;
   TimeFunction :
     Name : blade_pitch_control_3 ;
     TimeFunctionType : User_Defined ;
     NumberOfTerms : 3 ;
     Time :    0 ;   FunctionValue : 0.00000000e+00 ;
-    Time :  1.5 ;   FunctionValue : 2.63643119e-01 ;
-    Time : 1000 ;   FunctionValue : 2.63643119e-01 ;
+    Time :  1.5 ;   FunctionValue : 2.37097347e-01 ;
+    Time : 1000 ;   FunctionValue : 2.37097347e-01 ;
   ;
 
 EndParametricString : 1 ;
@@ -337,7 +337,7 @@ EndParametricString : 2 ;
 # ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 # parametric nb 8
 # N.B. wind is 17 m/s (Remember the TILT angle)
-# omega = 1.40350e+01 [rpm]; pitch = 1.80642e+01 [deg]
+# omega = 1.09051e+01 [rpm]; pitch = 1.65301e+01 [deg]
 
 BeginParametricString : 1 ;
 
@@ -346,32 +346,32 @@ BeginParametricString : 1 ;
     TimeFunctionType : User_Defined ;
     NumberOfTerms : 3 ;
     Time :    0 ;   FunctionValue : 0 ;
-    Time :  1.5 ;   FunctionValue : 1.46973958e+00 ;
-    Time : 1000 ;   FunctionValue : 1.46973958e+00 ;
+    Time :  1.5 ;   FunctionValue : 1.14197531e+00 ;
+    Time : 1000 ;   FunctionValue : 1.14197531e+00 ;
   ;
   TimeFunction :
     Name : blade_pitch_control_1 ;
     TimeFunctionType : User_Defined ;
     NumberOfTerms : 3 ;
     Time :    0 ;   FunctionValue : 0.00000000e+00 ;
-    Time :  1.5 ;   FunctionValue : 3.15279319e-01 ;
-    Time : 1000 ;   FunctionValue : 3.15279319e-01 ;
+    Time :  1.5 ;   FunctionValue : 2.88504121e-01 ;
+    Time : 1000 ;   FunctionValue : 2.88504121e-01 ;
   ;
   TimeFunction :
     Name : blade_pitch_control_2 ;
     TimeFunctionType : User_Defined ;
     NumberOfTerms : 3 ;
     Time :    0 ;   FunctionValue : 0.00000000e+00 ;
-    Time :  1.5 ;   FunctionValue : 3.15279319e-01 ;
-    Time : 1000 ;   FunctionValue : 3.15279319e-01 ;
+    Time :  1.5 ;   FunctionValue : 2.88504121e-01 ;
+    Time : 1000 ;   FunctionValue : 2.88504121e-01 ;
   ;
   TimeFunction :
     Name : blade_pitch_control_3 ;
     TimeFunctionType : User_Defined ;
     NumberOfTerms : 3 ;
     Time :    0 ;   FunctionValue : 0.00000000e+00 ;
-    Time :  1.5 ;   FunctionValue : 3.15279319e-01 ;
-    Time : 1000 ;   FunctionValue : 3.15279319e-01 ;
+    Time :  1.5 ;   FunctionValue : 2.88504121e-01 ;
+    Time : 1000 ;   FunctionValue : 2.88504121e-01 ;
   ;
 
 EndParametricString : 1 ;
@@ -385,7 +385,7 @@ EndParametricString : 2 ;
 # ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 # parametric nb 9
 # N.B. wind is 19 m/s (Remember the TILT angle)
-# omega = 1.40350e+01 [rpm]; pitch = 2.06972e+01 [deg]
+# omega = 1.09051e+01 [rpm]; pitch = 1.92750e+01 [deg]
 
 BeginParametricString : 1 ;
 
@@ -394,32 +394,32 @@ BeginParametricString : 1 ;
     TimeFunctionType : User_Defined ;
     NumberOfTerms : 3 ;
     Time :    0 ;   FunctionValue : 0 ;
-    Time :  1.5 ;   FunctionValue : 1.46973958e+00 ;
-    Time : 1000 ;   FunctionValue : 1.46973958e+00 ;
+    Time :  1.5 ;   FunctionValue : 1.14197531e+00 ;
+    Time : 1000 ;   FunctionValue : 1.14197531e+00 ;
   ;
   TimeFunction :
     Name : blade_pitch_control_1 ;
     TimeFunctionType : User_Defined ;
     NumberOfTerms : 3 ;
     Time :    0 ;   FunctionValue : 0.00000000e+00 ;
-    Time :  1.5 ;   FunctionValue : 3.61235152e-01 ;
-    Time : 1000 ;   FunctionValue : 3.61235152e-01 ;
+    Time :  1.5 ;   FunctionValue : 3.36411524e-01 ;
+    Time : 1000 ;   FunctionValue : 3.36411524e-01 ;
   ;
   TimeFunction :
     Name : blade_pitch_control_2 ;
     TimeFunctionType : User_Defined ;
     NumberOfTerms : 3 ;
     Time :    0 ;   FunctionValue : 0.00000000e+00 ;
-    Time :  1.5 ;   FunctionValue : 3.61235152e-01 ;
-    Time : 1000 ;   FunctionValue : 3.61235152e-01 ;
+    Time :  1.5 ;   FunctionValue : 3.36411524e-01 ;
+    Time : 1000 ;   FunctionValue : 3.36411524e-01 ;
   ;
   TimeFunction :
     Name : blade_pitch_control_3 ;
     TimeFunctionType : User_Defined ;
     NumberOfTerms : 3 ;
     Time :    0 ;   FunctionValue : 0.00000000e+00 ;
-    Time :  1.5 ;   FunctionValue : 3.61235152e-01 ;
-    Time : 1000 ;   FunctionValue : 3.61235152e-01 ;
+    Time :  1.5 ;   FunctionValue : 3.36411524e-01 ;
+    Time : 1000 ;   FunctionValue : 3.36411524e-01 ;
   ;
 
 EndParametricString : 1 ;
@@ -433,7 +433,7 @@ EndParametricString : 2 ;
 # ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 # parametric nb 10
 # N.B. wind is 21 m/s (Remember the TILT angle)
-# omega = 1.40350e+01 [rpm]; pitch = 2.31848e+01 [deg]
+# omega = 1.09051e+01 [rpm]; pitch = 2.17716e+01 [deg]
 
 BeginParametricString : 1 ;
 
@@ -442,32 +442,32 @@ BeginParametricString : 1 ;
     TimeFunctionType : User_Defined ;
     NumberOfTerms : 3 ;
     Time :    0 ;   FunctionValue : 0 ;
-    Time :  1.5 ;   FunctionValue : 1.46973958e+00 ;
-    Time : 1000 ;   FunctionValue : 1.46973958e+00 ;
+    Time :  1.5 ;   FunctionValue : 1.14197531e+00 ;
+    Time : 1000 ;   FunctionValue : 1.14197531e+00 ;
   ;
   TimeFunction :
     Name : blade_pitch_control_1 ;
     TimeFunctionType : User_Defined ;
     NumberOfTerms : 3 ;
     Time :    0 ;   FunctionValue : 0.00000000e+00 ;
-    Time :  1.5 ;   FunctionValue : 4.04651161e-01 ;
-    Time : 1000 ;   FunctionValue : 4.04651161e-01 ;
+    Time :  1.5 ;   FunctionValue : 3.79986682e-01 ;
+    Time : 1000 ;   FunctionValue : 3.79986682e-01 ;
   ;
   TimeFunction :
     Name : blade_pitch_control_2 ;
     TimeFunctionType : User_Defined ;
     NumberOfTerms : 3 ;
     Time :    0 ;   FunctionValue : 0.00000000e+00 ;
-    Time :  1.5 ;   FunctionValue : 4.04651161e-01 ;
-    Time : 1000 ;   FunctionValue : 4.04651161e-01 ;
+    Time :  1.5 ;   FunctionValue : 3.79986682e-01 ;
+    Time : 1000 ;   FunctionValue : 3.79986682e-01 ;
   ;
   TimeFunction :
     Name : blade_pitch_control_3 ;
     TimeFunctionType : User_Defined ;
     NumberOfTerms : 3 ;
     Time :    0 ;   FunctionValue : 0.00000000e+00 ;
-    Time :  1.5 ;   FunctionValue : 4.04651161e-01 ;
-    Time : 1000 ;   FunctionValue : 4.04651161e-01 ;
+    Time :  1.5 ;   FunctionValue : 3.79986682e-01 ;
+    Time : 1000 ;   FunctionValue : 3.79986682e-01 ;
   ;
 
 EndParametricString : 1 ;
@@ -481,7 +481,7 @@ EndParametricString : 2 ;
 # ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 # parametric nb 11
 # N.B. wind is 23 m/s (Remember the TILT angle)
-# omega = 1.40350e+01 [rpm]; pitch = 2.55949e+01 [deg]
+# omega = 1.09051e+01 [rpm]; pitch = 2.40973e+01 [deg]
 
 BeginParametricString : 1 ;
 
@@ -490,32 +490,32 @@ BeginParametricString : 1 ;
     TimeFunctionType : User_Defined ;
     NumberOfTerms : 3 ;
     Time :    0 ;   FunctionValue : 0 ;
-    Time :  1.5 ;   FunctionValue : 1.46973958e+00 ;
-    Time : 1000 ;   FunctionValue : 1.46973958e+00 ;
+    Time :  1.5 ;   FunctionValue : 1.14197531e+00 ;
+    Time : 1000 ;   FunctionValue : 1.14197531e+00 ;
   ;
   TimeFunction :
     Name : blade_pitch_control_1 ;
     TimeFunctionType : User_Defined ;
     NumberOfTerms : 3 ;
     Time :    0 ;   FunctionValue : 0.00000000e+00 ;
-    Time :  1.5 ;   FunctionValue : 4.46715921e-01 ;
-    Time : 1000 ;   FunctionValue : 4.46715921e-01 ;
+    Time :  1.5 ;   FunctionValue : 4.20577105e-01 ;
+    Time : 1000 ;   FunctionValue : 4.20577105e-01 ;
   ;
   TimeFunction :
     Name : blade_pitch_control_2 ;
     TimeFunctionType : User_Defined ;
     NumberOfTerms : 3 ;
     Time :    0 ;   FunctionValue : 0.00000000e+00 ;
-    Time :  1.5 ;   FunctionValue : 4.46715921e-01 ;
-    Time : 1000 ;   FunctionValue : 4.46715921e-01 ;
+    Time :  1.5 ;   FunctionValue : 4.20577105e-01 ;
+    Time : 1000 ;   FunctionValue : 4.20577105e-01 ;
   ;
   TimeFunction :
     Name : blade_pitch_control_3 ;
     TimeFunctionType : User_Defined ;
     NumberOfTerms : 3 ;
     Time :    0 ;   FunctionValue : 0.00000000e+00 ;
-    Time :  1.5 ;   FunctionValue : 4.46715921e-01 ;
-    Time : 1000 ;   FunctionValue : 4.46715921e-01 ;
+    Time :  1.5 ;   FunctionValue : 4.20577105e-01 ;
+    Time : 1000 ;   FunctionValue : 4.20577105e-01 ;
   ;
 
 EndParametricString : 1 ;
@@ -529,7 +529,7 @@ EndParametricString : 2 ;
 # ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 # parametric nb 12
 # N.B. wind is 25 m/s (Remember the TILT angle)
-# omega = 1.40350e+01 [rpm]; pitch = 2.77856e+01 [deg]
+# omega = 1.09051e+01 [rpm]; pitch = 2.61897e+01 [deg]
 
 BeginParametricString : 1 ;
 
@@ -538,32 +538,32 @@ BeginParametricString : 1 ;
     TimeFunctionType : User_Defined ;
     NumberOfTerms : 3 ;
     Time :    0 ;   FunctionValue : 0 ;
-    Time :  1.5 ;   FunctionValue : 1.46973958e+00 ;
-    Time : 1000 ;   FunctionValue : 1.46973958e+00 ;
+    Time :  1.5 ;   FunctionValue : 1.14197531e+00 ;
+    Time : 1000 ;   FunctionValue : 1.14197531e+00 ;
   ;
   TimeFunction :
     Name : blade_pitch_control_1 ;
     TimeFunctionType : User_Defined ;
     NumberOfTerms : 3 ;
     Time :    0 ;   FunctionValue : 0.00000000e+00 ;
-    Time :  1.5 ;   FunctionValue : 4.84950890e-01 ;
-    Time : 1000 ;   FunctionValue : 4.84950890e-01 ;
+    Time :  1.5 ;   FunctionValue : 4.57096454e-01 ;
+    Time : 1000 ;   FunctionValue : 4.57096454e-01 ;
   ;
   TimeFunction :
     Name : blade_pitch_control_2 ;
     TimeFunctionType : User_Defined ;
     NumberOfTerms : 3 ;
     Time :    0 ;   FunctionValue : 0.00000000e+00 ;
-    Time :  1.5 ;   FunctionValue : 4.84950890e-01 ;
-    Time : 1000 ;   FunctionValue : 4.84950890e-01 ;
+    Time :  1.5 ;   FunctionValue : 4.57096454e-01 ;
+    Time : 1000 ;   FunctionValue : 4.57096454e-01 ;
   ;
   TimeFunction :
     Name : blade_pitch_control_3 ;
     TimeFunctionType : User_Defined ;
     NumberOfTerms : 3 ;
     Time :    0 ;   FunctionValue : 0.00000000e+00 ;
-    Time :  1.5 ;   FunctionValue : 4.84950890e-01 ;
-    Time : 1000 ;   FunctionValue : 4.84950890e-01 ;
+    Time :  1.5 ;   FunctionValue : 4.57096454e-01 ;
+    Time : 1000 ;   FunctionValue : 4.57096454e-01 ;
   ;
 
 EndParametricString : 1 ;

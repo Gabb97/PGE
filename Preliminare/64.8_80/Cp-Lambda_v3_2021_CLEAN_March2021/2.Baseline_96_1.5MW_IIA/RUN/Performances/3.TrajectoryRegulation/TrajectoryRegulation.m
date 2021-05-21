@@ -85,7 +85,7 @@ MB_model_Folder                 = '.\..\..\..\MB_model';
 
 %% Read General WD Data **************************************************
 Parameters.Rotor.RotorDiameter      = xlsread(ExcelFileName,SheetName,'B2');
-Parameters.maxVtip                  = xlsread(ExcelFileName,SheetName,'B4');
+%Parameters.maxVtip                  = xlsread(ExcelFileName,SheetName,'B4');
 Parameters.PowerCurve.Efficiency    = xlsread(ExcelFileName,SheetName,'B6');
 Parameters.maxPower                 = xlsread(ExcelFileName,SheetName,'B5')/Parameters.PowerCurve.Efficiency*1.0E6; % [W]
 Parameters.airProp.rho              = xlsread(ExcelFileName,SheetName,'B9');

@@ -1,0 +1,1 @@
+function [n1,n2,n3,n4,n5,n6]=findFEnumber(Curve1X,Curv1Y,Curve2X,Curve2Y,Curve3X,Curve3Y,Curve4X,Curve4Y,Curve5X,Curve5Y,FENumb);

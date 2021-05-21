@@ -1,0 +1,216 @@
+Sensors :
+    # *******************   BLADE 1
+    Sensor :
+        Name            : Blade1RotatingPitchableRootForces ;
+        Beam            : blade_1_1 ;
+        Sensing         : Forces ;
+        InReferenceFrame: FrameBlade1RotatingPitchable ;
+        EtaValue        : 0 ;
+    ;
+    Sensor :
+        Name            : Blade1RotatingHubFixedRootForces ;
+        Beam            : blade_1_1 ;
+        Sensing         : Forces ;
+        InReferenceFrame: FrameBlade1RotatingHubFixed ;
+        EtaValue        : 0 ;
+    ;
+    Sensor :
+        Name            : Blade1RotatingPitchableTipDisplacements ;
+        Beam            : blade_2_1 ;
+        Sensing         : Displacements ;
+        InReferenceFrame: FrameBlade1RotatingPitchable ;
+        EtaValue        : 1 ;
+    ;
+    Sensor :
+        Name            : Blade1RotatingHubFixedTipDisplacements ;
+        Beam            : blade_2_1 ;
+        Sensing         : Displacements ;
+        InReferenceFrame: FrameBlade1RotatingHubFixed ;
+        EtaValue        : 1 ;
+    ;
+
+    Sensor :
+        Name            : Blade1RotatingHubFixedRootDisplacements ;
+        Beam            : blade_1_1 ;
+        Sensing         : Displacements ;
+        InReferenceFrame: FrameBlade1RotatingHubFixed ;
+        EtaValue        : 0 ;
+    ;
+    Sensor :
+        Name            : Blade1RotatingHubFixedRootVelocities ;
+        Beam            : blade_1_1 ;
+        Sensing         : Velocities ;
+        InReferenceFrame: FrameBlade1RotatingHubFixed ;
+        EtaValue        : 0 ;
+    ;
+
+    # *******************   BLADE 2
+    Sensor :
+        Name            : Blade2RotatingPitchableRootForces ;
+        Beam            : blade_1_2 ;
+        Sensing         : Forces ;
+        InReferenceFrame: FrameBlade2RotatingPitchable ;
+        EtaValue        : 0 ;
+    ;
+    Sensor :
+        Name            : Blade2RotatingHubFixedRootForces ;
+        Beam            : blade_1_2 ;
+        Sensing         : Forces ;
+        InReferenceFrame: FrameBlade2RotatingHubFixed ;
+        EtaValue        : 0 ;
+    ;
+    Sensor :
+        Name            : Blade2RotatingPitchableTipDisplacements ;
+        Beam            : blade_2_2 ;
+        Sensing         : Displacements ;
+        InReferenceFrame: FrameBlade2RotatingPitchable ;
+        EtaValue        : 1 ;
+    ;
+    Sensor :
+        Name            : Blade2RotatingHubFixedTipDisplacements ;
+        Beam            : blade_2_2 ;
+        Sensing         : Displacements ;
+        InReferenceFrame: FrameBlade2RotatingHubFixed ;
+        EtaValue        : 1 ;
+    ;
+
+    # *******************   BLADE 3
+    Sensor :
+        Name            : Blade3RotatingPitchableRootForces ;
+        Beam            : blade_1_3 ;
+        Sensing         : Forces ;
+        InReferenceFrame: FrameBlade3RotatingPitchable ;
+        EtaValue        : 0 ;
+    ;
+    Sensor :
+        Name            : Blade3RotatingHubFixedRootForces ;
+        Beam            : blade_1_3 ;
+        Sensing         : Forces ;
+        InReferenceFrame: FrameBlade3RotatingHubFixed ;
+        EtaValue        : 0 ;
+    ;
+    Sensor :
+        Name            : Blade3RotatingPitchableTipDisplacements ;
+        Beam            : blade_2_3 ;
+        Sensing         : Displacements ;
+        InReferenceFrame: FrameBlade3RotatingPitchable ;
+        EtaValue        : 1 ;
+    ;
+    Sensor :
+        Name            : Blade3RotatingHubFixedTipDisplacements ;
+        Beam            : blade_2_3 ;
+        Sensing         : Displacements ;
+        InReferenceFrame: FrameBlade3RotatingHubFixed ;
+        EtaValue        : 1 ;
+    ;
+
+    # *******************   HUB-NACELLE
+
+
+    Sensor :
+        Name            : HubRotatingForces ;
+        Beam            : drive_train_shaft_1 ;
+        Sensing         : Forces ;
+        InReferenceFrame: FrameHubRotating ;
+        EtaValue        : 0.5 ;
+    ;
+    Sensor :
+        Name            : HubFixedForces ;
+        Beam            : drive_train_shaft_1 ;
+        Sensing         : Forces ;
+        InReferenceFrame: FrameHubFixed ;
+        EtaValue        : 0.5 ;
+    ;
+    Sensor :
+        Name            : HubVelocities ;
+        RigidBody       : rb_hub_centre ;
+        Sensing         : Velocities ;
+        InReferenceFrame: FrameHubRotorSpeed ;
+    ;
+
+    Sensor :
+        Name            : HubGeneratorFixedForces ;
+        Beam            : drive_train_linker ;
+        Sensing         : Forces ;
+        InReferenceFrame: FrameHubFixed ;
+        EtaValue        : 0.5 ;
+    ;
+
+
+    # *******************   TOWER
+
+    Sensor :
+        Name            : TowerTopLocalForces ;
+        Beam            : tower_4   ;
+        Sensing         : Forces ;
+        InReferenceFrame: FrameTowerLocal ;
+        EtaValue        : 1 ;
+    ;
+    Sensor :
+        Name            : TowerTopDisplacements ;
+        Beam            : tower_4   ;
+        Sensing         : Displacements ;
+        InReferenceFrame: INERTIAL ;
+        EtaValue        : 1 ;
+    ;
+    Sensor :
+        Name            : TowerTopVelocities ;
+        Beam            : tower_4   ;
+        Sensing         : Velocities ;
+        InReferenceFrame: INERTIAL ;
+        EtaValue        : 1 ;
+    ;
+    Sensor :
+        Name            : TowerRootLocalForces ;
+        Beam            : tower_0 ;
+        Sensing         : Forces ;
+        InReferenceFrame: FrameTowerLocal ;
+        EtaValue        : 0 ;
+    ;
+    Sensor :
+        Name            : TowerRootDisplacements ;
+        Beam            : tower_0 ;
+        Sensing         : Displacements ;
+        InReferenceFrame: INERTIAL ;
+        EtaValue        : 0 ;
+    ;
+
+    # *******************   RELATIVE ROTATIONS
+
+    Sensor :
+        Name             : Blade1Pitch ;
+        RevoluteJoint    : rvj_pitch_controller_1;
+        Sensing          : RelativeRotations;
+    ;
+    Sensor :
+        Name             : Blade2Pitch ;
+        RevoluteJoint    : rvj_pitch_controller_2;
+        Sensing          : RelativeRotations;
+    ;
+    Sensor :
+        Name             : Blade3Pitch ;
+        RevoluteJoint    : rvj_pitch_controller_3;
+        Sensing          : RelativeRotations;
+    ;
+    Sensor :
+        Name             : HubRotation ;
+        RevoluteJoint    : rvj_generator;
+        Sensing          : RelativeRotations;
+    ;
+    Sensor :
+        Name             : YawRotation ;
+        RevoluteJoint    : rvj_yaw_control ;
+        Sensing          : RelativeRotations;
+    ;
+
+    Sensor :
+        Name             : GeneratorActuatorTorque ;
+        Beam             : drive_train_linker ;
+        Sensing          : Forces;
+        InReferenceFrame : FrameHubRotating ;
+        EtaValue         : 0 ;
+        # ActuatorForce  : generator_actuator ;
+        # Sensing        : Forces;
+    ;
+
+;

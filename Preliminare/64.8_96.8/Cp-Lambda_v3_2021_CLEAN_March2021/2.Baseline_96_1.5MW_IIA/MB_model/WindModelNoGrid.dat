@@ -14,13 +14,13 @@ WindModels:
             TowerDiameters  :
                 NumberOfTerms   :   8;
                 Height  :  0.00000e+00  ; Diameter :  4.00000e+00;
-                Height  :  1.49942e+01  ; Diameter :  3.80000e+00;
-                Height  :  2.99963e+01  ; Diameter :  3.30000e+00;
-                Height  :  4.49984e+01  ; Diameter :  3.00000e+00;
-                Height  :  5.99926e+01  ; Diameter :  2.90000e+00;
-                Height  :  7.90000e+01  ; Diameter :  2.30000e+00;
-                Height  :  7.90100e+01  ; Diameter :  0.00000e+00;
-                Height  :  1.79000e+02  ; Diameter :  0.00000e+00;
+                Height  :  1.81828e+01  ; Diameter :  3.80000e+00;
+                Height  :  3.63753e+01  ; Diameter :  3.30000e+00;
+                Height  :  5.45677e+01  ; Diameter :  3.00000e+00;
+                Height  :  7.27505e+01  ; Diameter :  2.90000e+00;
+                Height  :  9.58000e+01  ; Diameter :  2.30000e+00;
+                Height  :  9.58100e+01  ; Diameter :  0.00000e+00;
+                Height  :  1.95800e+02  ; Diameter :  0.00000e+00;
             ;
             TowerDiameterCorrectionFactor : 1.0;
             # MaximunVelocityDeficit        : 0.1;
@@ -28,7 +28,7 @@ WindModels:
             # ReferencePosition             : 1.0;
         # WIND SHEAR ++++++++++++++++++++++++
         WindShearModel  : exponential;
-        ReferenceHeight :  8.00000e+01;
+        ReferenceHeight :  9.68000e+01;
         WindShearExponent:  0.2;
         # WindShearModel  : logarithmic;
         # ReferenceHeight : 60.0;

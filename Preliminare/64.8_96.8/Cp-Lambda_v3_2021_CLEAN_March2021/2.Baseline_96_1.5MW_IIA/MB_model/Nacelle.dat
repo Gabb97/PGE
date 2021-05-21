@@ -1,7 +1,7 @@
  Points :
   Point :
     Name : pt_nacelle_top ;
-    Coordinates : 83 ,  0 ,  0 ; 
+    Coordinates : 99.8 ,  0 ,  0 ; 
     InReferenceFrame : tower_frame ; 
    ;
  ; 

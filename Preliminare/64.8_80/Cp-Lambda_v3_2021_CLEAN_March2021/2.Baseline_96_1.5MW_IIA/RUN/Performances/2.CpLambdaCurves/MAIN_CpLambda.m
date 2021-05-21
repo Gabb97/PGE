@@ -52,8 +52,8 @@ Parameters.SaveFlag   = 1;                                          % 1: save fi
 
 % Length of time function ramps (environmental and control t.functions)
 % --> Increase these values for smoother generation of the forces
-Parameters.PitchOmegaRampTime = 12;  % [sec] Length of time function ramp for omega and pitch 
-Parameters.AirGravityRampTime = 5 ;  % [sec] Length of time function ramp for air and gravity 
+Parameters.PitchOmegaRampTime = 30;  % [sec] Length of time function ramp for omega and pitch 
+Parameters.AirGravityRampTime = 20;  % [sec] Length of time function ramp for air and gravity 
 
 %% 
 addpath('.\Routines');

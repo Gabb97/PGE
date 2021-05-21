@@ -6,27 +6,27 @@
    ;
   Point :
     Name : pt_tower_1 ;
-    Coordinates : 14.9942 ,  0 ,  0 ; 
+    Coordinates : 18.18284 ,  0 ,  0 ; 
     InReferenceFrame : tower_frame ; 
    ;
   Point :
     Name : pt_tower_2 ;
-    Coordinates : 29.9963 ,  0 ,  0 ; 
+    Coordinates : 36.37526 ,  0 ,  0 ; 
     InReferenceFrame : tower_frame ; 
    ;
   Point :
     Name : pt_tower_3 ;
-    Coordinates : 44.9984 ,  0 ,  0 ; 
+    Coordinates : 54.56768 ,  0 ,  0 ; 
     InReferenceFrame : tower_frame ; 
    ;
   Point :
     Name : pt_tower_4 ;
-    Coordinates : 59.9926 ,  0 ,  0 ; 
+    Coordinates : 72.75052 ,  0 ,  0 ; 
     InReferenceFrame : tower_frame ; 
    ;
   Point :
     Name : pt_tower_5 ;
-    Coordinates : 79 ,  0 ,  0 ; 
+    Coordinates : 95.8 ,  0 ,  0 ; 
     InReferenceFrame : tower_frame ; 
    ;
  ;    

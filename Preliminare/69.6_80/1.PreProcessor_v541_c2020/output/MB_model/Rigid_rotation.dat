@@ -1,0 +1,16 @@
+RigidRotations :
+    RigidRotation :
+     Name : rigid_rotation ;
+     ConnectedTo : rb_hub_centre ;
+     Where : pt_hub_centre ;
+     TimeFunction : control_rigid_rotation ;
+     AngularVelocity : -8.71557427e-02 , 9.96194698e-01 , 0.00000000e+00 ;
+     BodyList : blade_1_1,blade_2_1, 
+                blade_1_2,blade_2_2, 
+                blade_1_3,blade_2_3, 
+                rb_blade_fixed_root_1,rb_blade_fixed_root_2,rb_blade_fixed_root_3, 
+                rb_point_mass_1_1,rb_point_mass_1_2,rb_point_mass_1_3, 
+                rb_generator,rb_hub_centre 
+      ;
+    ;
+;

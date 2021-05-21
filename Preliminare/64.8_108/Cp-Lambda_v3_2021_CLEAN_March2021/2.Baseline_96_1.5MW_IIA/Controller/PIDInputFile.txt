@@ -1,9 +1,0 @@
-PID_NKPTable                2
-PID_KPTableWinds            0           1000
-PID_KPTableKP               30.0		30.0
-PID_NKITable                2
-PID_KITableWinds            0           1000
-PID_KITableKI               15.0        15.0
-PID_NKDTable                2
-PID_KDTableWinds            0           1000
-PID_KDTableKD               5.0   		5.0

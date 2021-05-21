@@ -1,0 +1,87 @@
+Points :
+  Point :
+    Name : pt_hub_centre ;
+    Coordinates :  0 ,  0 ,  0 ; 
+    InReferenceFrame : frame_hub ; 
+   ;
+ ;    
+
+
+ RigidBodies : 
+  RigidBody :
+     Name : rb_hub_centre ; 
+     ConnectedTo : drive_train_shaft_1 ; 
+     Where : pt_hub_centre ; 
+     ConnectedTo : null ; 
+     Where : pt_hub_centre ; 
+     Triad : hub_triad ; 
+     AssociatedRigidBody : 
+       RigidBody : 
+         Name : rb_hub_conn_1 ;
+         ConnectedTo : rb_blade_fixed_root_1 ; 
+         Where : pt_hub_centre ; 
+      ; 
+       RigidBody : 
+         Name : rb_hub_conn_2 ;
+         ConnectedTo : rb_blade_fixed_root_2 ; 
+         Where : pt_hub_centre ; 
+      ; 
+       RigidBody : 
+         Name : rb_hub_conn_3 ;
+         ConnectedTo : rb_blade_fixed_root_3 ; 
+         Where : pt_hub_centre ; 
+      ; 
+    ; 
+     MassProperty : hub_mass ;
+ ; 
+ ;    
+
+
+MassProperties : 
+  MassProperty : 
+    Name :  hub_mass  ; 
+    Mass :  20000  ; 
+    CenterOfMass :  0 , -0 ,  0 ; 
+    MomentsOfInertia :  0 ,  0 ,  0 , 48000 ,  0 ,  0  ; 
+   ; 
+ ;
+
+
+ Triads : 
+   Triad :
+     Name : hub_triad ; 
+     YVector :  0 ,  1 ,  0 ; 
+     ZVector :  0 ,  0 ,  1 ; 
+     InReferenceFrame : frame_hub ; 
+   ;
+ ; 
+
+
+RigidBodies : 
+  RigidBody :
+     Name : rb_blade_fixed_root_1 ; 
+     ConnectedTo : rb_hub_conn_1 ; 
+     Where : pt_hub_centre ; 
+     ConnectedTo : rvj_pitch_controller_1 ; 
+     Where : pt_blade_root_1_1 ; 
+     Triad : hub_triad ; 
+ ; 
+  RigidBody :
+     Name : rb_blade_fixed_root_2 ; 
+     ConnectedTo : rb_hub_conn_2 ; 
+     Where : pt_hub_centre ; 
+     ConnectedTo : rvj_pitch_controller_2 ; 
+     Where : pt_blade_root_1_2 ; 
+     Triad : hub_triad ; 
+ ; 
+  RigidBody :
+     Name : rb_blade_fixed_root_3 ; 
+     ConnectedTo : rb_hub_conn_3 ; 
+     Where : pt_hub_centre ; 
+     ConnectedTo : rvj_pitch_controller_3 ; 
+     Where : pt_blade_root_1_3 ; 
+     Triad : hub_triad ; 
+ ; 
+ ;    
+
+

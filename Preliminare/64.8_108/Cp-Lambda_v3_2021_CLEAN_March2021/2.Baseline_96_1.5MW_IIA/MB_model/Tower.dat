@@ -1,0 +1,330 @@
+ Points :
+  Point :
+    Name : pt_tower_0 ;
+    Coordinates :  0 ,  0 ,  0 ; 
+    InReferenceFrame : tower_frame ; 
+   ;
+  Point :
+    Name : pt_tower_1 ;
+    Coordinates : 20.3086 ,  0 ,  0 ; 
+    InReferenceFrame : tower_frame ; 
+   ;
+  Point :
+    Name : pt_tower_2 ;
+    Coordinates : 40.6279 ,  0 ,  0 ; 
+    InReferenceFrame : tower_frame ; 
+   ;
+  Point :
+    Name : pt_tower_3 ;
+    Coordinates : 60.9472 ,  0 ,  0 ; 
+    InReferenceFrame : tower_frame ; 
+   ;
+  Point :
+    Name : pt_tower_4 ;
+    Coordinates : 81.2558 ,  0 ,  0 ; 
+    InReferenceFrame : tower_frame ; 
+   ;
+  Point :
+    Name : pt_tower_5 ;
+    Coordinates : 107 ,  0 ,  0 ; 
+    InReferenceFrame : tower_frame ; 
+   ;
+ ;    
+
+
+ Beams : 
+   Beam :
+      Name : tower_0 ; 
+      ConnectedTo : ground ; 
+      Where : pt_tower_0 ; 
+      ConnectedTo : tower_1; 
+      Where : pt_tower_1 ; 
+      Curve : tower_curve_0 ; 
+      BeamProperty : tower_properties_0 ; 
+      #Shape : shape name ; 
+      ;
+   Beam :
+      Name : tower_1 ; 
+      ConnectedTo : tower_0 ; 
+      Where : pt_tower_1 ; 
+      ConnectedTo : tower_2; 
+      Where : pt_tower_2 ; 
+      Curve : tower_curve_1 ; 
+      BeamProperty : tower_properties_1 ; 
+      #Shape : shape name ; 
+      ;
+   Beam :
+      Name : tower_2 ; 
+      ConnectedTo : tower_1 ; 
+      Where : pt_tower_2 ; 
+      ConnectedTo : tower_3; 
+      Where : pt_tower_3 ; 
+      Curve : tower_curve_2 ; 
+      BeamProperty : tower_properties_2 ; 
+      #Shape : shape name ; 
+      ;
+   Beam :
+      Name : tower_3 ; 
+      ConnectedTo : tower_2 ; 
+      Where : pt_tower_3 ; 
+      ConnectedTo : tower_4; 
+      Where : pt_tower_4 ; 
+      Curve : tower_curve_3 ; 
+      BeamProperty : tower_properties_3 ; 
+      #Shape : shape name ; 
+      ;
+   Beam :
+      Name : tower_4 ; 
+      ConnectedTo : tower_3 ; 
+      Where : pt_tower_4 ; 
+      ConnectedTo : rvj_yaw_control; 
+      Where : pt_tower_5 ; 
+      Curve : tower_curve_4 ; 
+      BeamProperty : tower_properties_4 ; 
+      #Shape : shape name ; 
+      ;
+  ;
+
+
+ Curves : 
+ Curve : 
+    Name : tower_curve_0 ; 
+       InReferenceFrame : tower_frame ; 
+       Points : 
+       NumberOfControlPoints : 2 ; 
+       DegreeOfCurve : 1 ; 
+       RationalCurveFlag : NO ; 
+       EndPoint0 : pt_tower_0 ; 
+       EndPoint1 : pt_tower_1 ; 
+       ; 
+       Triads : 
+       NumberOfTerms :  2 ;
+       EtaValue :  0  ;         YVector : 0 ,  1 ,  0 ;        ZVector : 0 ,  0 ,  1 ;  
+       EtaValue :  1 ;        YVector : 0 ,  1 ,  0 ;         ZVector : 0 ,  0 ,  1 ; 
+    ;
+  CurveMeshParameter : mesh_tower ; 
+  ;
+ Curve : 
+    Name : tower_curve_1 ; 
+       InReferenceFrame : tower_frame ; 
+       Points : 
+       NumberOfControlPoints : 2 ; 
+       DegreeOfCurve : 1 ; 
+       RationalCurveFlag : NO ; 
+       EndPoint0 : pt_tower_1 ; 
+       EndPoint1 : pt_tower_2 ; 
+       ; 
+       Triads : 
+       NumberOfTerms :  2 ;
+       EtaValue :  0  ;         YVector : 0 ,  1 ,  0 ;        ZVector : 0 ,  0 ,  1 ;  
+       EtaValue :  1 ;        YVector : 0 ,  1 ,  0 ;         ZVector : 0 ,  0 ,  1 ; 
+    ;
+  CurveMeshParameter : mesh_tower ; 
+  ;
+ Curve : 
+    Name : tower_curve_2 ; 
+       InReferenceFrame : tower_frame ; 
+       Points : 
+       NumberOfControlPoints : 2 ; 
+       DegreeOfCurve : 1 ; 
+       RationalCurveFlag : NO ; 
+       EndPoint0 : pt_tower_2 ; 
+       EndPoint1 : pt_tower_3 ; 
+       ; 
+       Triads : 
+       NumberOfTerms :  2 ;
+       EtaValue :  0  ;         YVector : 0 ,  1 ,  0 ;        ZVector : 0 ,  0 ,  1 ;  
+       EtaValue :  1 ;        YVector : 0 ,  1 ,  0 ;         ZVector : 0 ,  0 ,  1 ; 
+    ;
+  CurveMeshParameter : mesh_tower ; 
+  ;
+ Curve : 
+    Name : tower_curve_3 ; 
+       InReferenceFrame : tower_frame ; 
+       Points : 
+       NumberOfControlPoints : 2 ; 
+       DegreeOfCurve : 1 ; 
+       RationalCurveFlag : NO ; 
+       EndPoint0 : pt_tower_3 ; 
+       EndPoint1 : pt_tower_4 ; 
+       ; 
+       Triads : 
+       NumberOfTerms :  2 ;
+       EtaValue :  0  ;         YVector : 0 ,  1 ,  0 ;        ZVector : 0 ,  0 ,  1 ;  
+       EtaValue :  1 ;        YVector : 0 ,  1 ,  0 ;         ZVector : 0 ,  0 ,  1 ; 
+    ;
+  CurveMeshParameter : mesh_tower ; 
+  ;
+ Curve : 
+    Name : tower_curve_4 ; 
+       InReferenceFrame : tower_frame ; 
+       Points : 
+       NumberOfControlPoints : 2 ; 
+       DegreeOfCurve : 1 ; 
+       RationalCurveFlag : NO ; 
+       EndPoint0 : pt_tower_4 ; 
+       EndPoint1 : pt_tower_5 ; 
+       ; 
+       Triads : 
+       NumberOfTerms :  2 ;
+       EtaValue :  0  ;         YVector : 0 ,  1 ,  0 ;        ZVector : 0 ,  0 ,  1 ;  
+       EtaValue :  1 ;        YVector : 0 ,  1 ,  0 ;         ZVector : 0 ,  0 ,  1 ; 
+    ;
+  CurveMeshParameter : mesh_tower ; 
+  ;
+ ;
+
+
+ CurveMeshParameters :  
+   CurveMeshParameter :
+     Name : mesh_tower ; 
+     NumberOfElements :  1 ; 
+     OrderOfElements :   3 ; 
+    ; 
+ ;
+
+
+ BeamProperties : 
+  BeamProperty : 
+     Name : tower_properties_0  ; 
+     NumberOfTerms :  2  ;
+      EtaValue :  0 ; : 
+      AxialStiffness : 7.85744e+10 ;
+      BendingStiffnesses : 2.52e+11 , 2.52e+11 , 0.0 ; 
+      TorsionalStiffness :  1.19084e+11 ; 
+      ShearingStiffnesses : 2.52e+12 , 2.52e+12, 0.0 ; 
+      MassPerUnitSpan : 5000 ; 
+      MomentsOfInertia : 11573.83034789827,5786.915173949134,5786.915173949134 ; 
+      CenterOfMass :  0.0 , 0.0 ; 
+      ShearCenter : 0.0 , 0.0 ; 
+      Centroid : 0.0 , 0.0 ; 
+      DampingCoefficient : 0.005 ; 
+     ;
+      EtaValue :  1 ; : 
+      AxialStiffness : 6.22624e+10 ;
+      BendingStiffnesses : 1.71e+11 , 1.71e+11 , 0.0 ; 
+      TorsionalStiffness :  8.5319e+10 ; 
+      ShearingStiffnesses : 1.71e+12 , 1.71e+12, 0.0 ; 
+      MassPerUnitSpan : 3600 ; 
+      MomentsOfInertia : 8292.194140407059,4146.097070203529,4146.097070203529 ; 
+      CenterOfMass :  0.0 , 0.0 ; 
+      ShearCenter : 0.0 , 0.0 ; 
+      Centroid : 0.0 , 0.0 ; 
+      DampingCoefficient : 0.005 ; 
+     ;
+  ;
+  BeamProperty : 
+     Name : tower_properties_1  ; 
+     NumberOfTerms :  2  ;
+      EtaValue :  0 ; : 
+      AxialStiffness : 6.22624e+10 ;
+      BendingStiffnesses : 1.71e+11 , 1.71e+11 , 0.0 ; 
+      TorsionalStiffness :  8.5319e+10 ; 
+      ShearingStiffnesses : 1.71e+12 , 1.71e+12, 0.0 ; 
+      MassPerUnitSpan : 3600 ; 
+      MomentsOfInertia : 8292.194140407059,4146.097070203529,4146.097070203529 ; 
+      CenterOfMass :  0.0 , 0.0 ; 
+      ShearCenter : 0.0 , 0.0 ; 
+      Centroid : 0.0 , 0.0 ; 
+      DampingCoefficient : 0.005 ; 
+     ;
+      EtaValue :  1 ; : 
+      AxialStiffness : 5.1871e+10 ;
+      BendingStiffnesses : 1.26e+11 , 1.26e+11 , 0.0 ; 
+      TorsionalStiffness :  5.35306e+10 ; 
+      ShearingStiffnesses : 1.26e+12 , 1.26e+12, 0.0 ; 
+      MassPerUnitSpan : 3000 ; 
+      MomentsOfInertia : 5202.663858021049,2601.331929010525,2601.331929010525 ; 
+      CenterOfMass :  0.0 , 0.0 ; 
+      ShearCenter : 0.0 , 0.0 ; 
+      Centroid : 0.0 , 0.0 ; 
+      DampingCoefficient : 0.005 ; 
+     ;
+  ;
+  BeamProperty : 
+     Name : tower_properties_2  ; 
+     NumberOfTerms :  2  ;
+      EtaValue :  0 ; : 
+      AxialStiffness : 5.1871e+10 ;
+      BendingStiffnesses : 1.26e+11 , 1.26e+11 , 0.0 ; 
+      TorsionalStiffness :  5.35306e+10 ; 
+      ShearingStiffnesses : 1.26e+12 , 1.26e+12, 0.0 ; 
+      MassPerUnitSpan : 3000 ; 
+      MomentsOfInertia : 5202.663858021049,2601.331929010525,2601.331929010525 ; 
+      CenterOfMass :  0.0 , 0.0 ; 
+      ShearCenter : 0.0 , 0.0 ; 
+      Centroid : 0.0 , 0.0 ; 
+      DampingCoefficient : 0.005 ; 
+     ;
+      EtaValue :  1 ; : 
+      AxialStiffness : 4.12723e+10 ;
+      BendingStiffnesses : 7.92e+10 , 7.92e+10 , 0.0 ; 
+      TorsionalStiffness :  3.52199e+10 ; 
+      ShearingStiffnesses : 7.92e+11 , 7.92e+11, 0.0 ; 
+      MassPerUnitSpan : 2300 ; 
+      MomentsOfInertia : 3423.039600733444,1711.519800366722,1711.519800366722 ; 
+      CenterOfMass :  0.0 , 0.0 ; 
+      ShearCenter : 0.0 , 0.0 ; 
+      Centroid : 0.0 , 0.0 ; 
+      DampingCoefficient : 0.005 ; 
+     ;
+  ;
+  BeamProperty : 
+     Name : tower_properties_3  ; 
+     NumberOfTerms :  2  ;
+      EtaValue :  0 ; : 
+      AxialStiffness : 4.12723e+10 ;
+      BendingStiffnesses : 7.92e+10 , 7.92e+10 , 0.0 ; 
+      TorsionalStiffness :  3.52199e+10 ; 
+      ShearingStiffnesses : 7.92e+11 , 7.92e+11, 0.0 ; 
+      MassPerUnitSpan : 2300 ; 
+      MomentsOfInertia : 3423.039600733444,1711.519800366722,1711.519800366722 ; 
+      CenterOfMass :  0.0 , 0.0 ; 
+      ShearCenter : 0.0 , 0.0 ; 
+      Centroid : 0.0 , 0.0 ; 
+      DampingCoefficient : 0.005 ; 
+     ;
+      EtaValue :  1 ; : 
+      AxialStiffness : 3.04428e+10 ;
+      BendingStiffnesses : 5.175e+10 , 5.175e+10 , 0.0 ; 
+      TorsionalStiffness :  2.43475e+10 ; 
+      ShearingStiffnesses : 5.175e+11 , 5.175e+11, 0.0 ; 
+      MassPerUnitSpan : 1800 ; 
+      MomentsOfInertia : 2366.34823140959,1183.174115704795,1183.174115704795 ; 
+      CenterOfMass :  0.0 , 0.0 ; 
+      ShearCenter : 0.0 , 0.0 ; 
+      Centroid : 0.0 , 0.0 ; 
+      DampingCoefficient : 0.005 ; 
+     ;
+  ;
+  BeamProperty : 
+     Name : tower_properties_4  ; 
+     NumberOfTerms :  2  ;
+      EtaValue :  0 ; : 
+      AxialStiffness : 3.04428e+10 ;
+      BendingStiffnesses : 5.175e+10 , 5.175e+10 , 0.0 ; 
+      TorsionalStiffness :  2.43475e+10 ; 
+      ShearingStiffnesses : 5.175e+11 , 5.175e+11, 0.0 ; 
+      MassPerUnitSpan : 1800 ; 
+      MomentsOfInertia : 2366.34823140959,1183.174115704795,1183.174115704795 ; 
+      CenterOfMass :  0.0 , 0.0 ; 
+      ShearCenter : 0.0 , 0.0 ; 
+      Centroid : 0.0 , 0.0 ; 
+      DampingCoefficient : 0.005 ; 
+     ;
+      EtaValue :  1 ; : 
+      AxialStiffness : 2.41093e+10 ;
+      BendingStiffnesses : 3.384e+10 , 3.384e+10 , 0.0 ; 
+      TorsionalStiffness :  1.20939e+10 ; 
+      ShearingStiffnesses : 3.384e+11 , 3.384e+11, 0.0 ; 
+      MassPerUnitSpan : 1500 ; 
+      MomentsOfInertia : 1175.409323715351,587.7046618576757,587.7046618576757 ; 
+      CenterOfMass :  0.0 , 0.0 ; 
+      ShearCenter : 0.0 , 0.0 ; 
+      Centroid : 0.0 , 0.0 ; 
+      DampingCoefficient : 0.005 ; 
+     ;
+  ;
+ ;    
+
+

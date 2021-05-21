@@ -1,0 +1,49 @@
+ Points :
+  Point :
+    Name : pt_nacelle_top ;
+    Coordinates : 111 ,  0 ,  0 ; 
+    InReferenceFrame : tower_frame ; 
+   ;
+ ; 
+
+
+RigidBodies : 
+  RigidBody :
+     Name : rigid_body_nacelle ; 
+     ConnectedTo : rvj_yaw_control ; 
+     Where : pt_tower_5 ; 
+     ConnectedTo : null ; 
+     Where : pt_tower_5 ; 
+     Triad : triad_nacelle ; 
+     AssociatedRigidBody : 
+       RigidBody : 
+         Name : rb_nacelle_to_drive_train ;
+         ConnectedTo : drive_train_linker ; 
+         Where : pt_generator_link_nacelle ; 
+      ; 
+    ; 
+     MassProperty : nacelle_mass ;
+ ; 
+ ; 
+
+
+MassProperties : 
+  MassProperty : 
+    Name :  nacelle_mass  ; 
+    Mass :  55000  ; 
+    CenterOfMass :  1 , -0 , -0 ; 
+    MomentsOfInertia :  0 ,  0 ,  0 , 55000 ,  0 , 65000  ; 
+   ; 
+ ;
+
+
+ Triads : 
+   Triad :
+     Name : triad_nacelle ; 
+     YVector :  0 ,  1 ,  0 ; 
+     ZVector :  0 ,  0 ,  1 ; 
+     InReferenceFrame : INERTIAL ; 
+   ;
+ ; 
+
+

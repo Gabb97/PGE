@@ -1,0 +1,11 @@
+CTRL                        31
+
+WT_controller_file          .\..\..\..\Controller\WTControllerFile.txt
+LQR_file                    .\..\..\..\Controller\LQRInputFile.txt
+
+InitialState                1
+GridFailTime                9999.0
+RotorSpeedStopSimulation    0.5
+
+PitchOneRunawayTime         9999.0
+PitchOneRunawayRate         4

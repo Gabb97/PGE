@@ -1,0 +1,120 @@
+============================================================ 
+AirfoilDisc Input File - Section Layout 
+============================================================ 
+Section number:  19  
+Location:    40.6759 
+Eta:   0.620690 
+============================================================ 
+    1.8899 	 Chord length [m] 
+    3.0343 	 Twist [deg] 
+   -0.6048 	 Leading edge [m] 
+    1.2851 	 Trailing edge [m] 
+   -0.2011 	 Front spar [m] 
+    0.3300 	 Rear spar [m] 
+   -0.4536 	 LE reinforcement [m] 
+    1.0923 	 TE reinforcement [m] 
+    0.0000 	 Third web (not supported yet) [m] 
+============================================================ 
+12 	 Number of Elements 
+1 	 Absolute/percentage thickness 
+============================================================ 
+ELEMENT N.  1 
+0.007190 	 	 Element total thickness [m] 
+4 	 	Number of Layers 
+PAINT 	 0.000500 
+TRIAXIAL 	 0.002397 
+REINFORCEMENT 	 0.001897 
+TRIAXIAL 	 0.002397 
+------------------------------------------------------------ 
+ELEMENT N.  2 
+0.019259 	 	 Element total thickness [m] 
+4 	 	Number of Layers 
+PAINT 	 0.000500 
+TRIAXIAL 	 0.002397 
+BALSA 	 0.013966 
+TRIAXIAL 	 0.002397 
+------------------------------------------------------------ 
+ELEMENT N.  3 
+0.042466 	 	 Element total thickness [m] 
+4 	 	Number of Layers 
+PAINT 	 0.000500 
+TRIAXIAL 	 0.002397 
+UNIDIRECTIONAL 	 0.037172 
+TRIAXIAL 	 0.002397 
+------------------------------------------------------------ 
+ELEMENT N.  4 
+0.019259 	 	 Element total thickness [m] 
+4 	 	Number of Layers 
+PAINT 	 0.000500 
+TRIAXIAL 	 0.002397 
+BALSA 	 0.013966 
+TRIAXIAL 	 0.002397 
+------------------------------------------------------------ 
+ELEMENT N.  5 
+0.007190 	 	 Element total thickness [m] 
+4 	 	Number of Layers 
+PAINT 	 0.000500 
+TRIAXIAL 	 0.002397 
+REINFORCEMENT 	 0.001897 
+TRIAXIAL 	 0.002397 
+------------------------------------------------------------ 
+ELEMENT N.  6 
+0.007190 	 	 Element total thickness [m] 
+4 	 	Number of Layers 
+PAINT 	 0.000500 
+TRIAXIAL 	 0.002397 
+REINFORCEMENT 	 0.001897 
+TRIAXIAL 	 0.002397 
+------------------------------------------------------------ 
+ELEMENT N.  7 
+0.019259 	 	 Element total thickness [m] 
+4 	 	Number of Layers 
+PAINT 	 0.000500 
+TRIAXIAL 	 0.002397 
+BALSA 	 0.013966 
+TRIAXIAL 	 0.002397 
+------------------------------------------------------------ 
+ELEMENT N.  8 
+0.042466 	 	 Element total thickness [m] 
+4 	 	Number of Layers 
+PAINT 	 0.000500 
+TRIAXIAL 	 0.002397 
+UNIDIRECTIONAL 	 0.037172 
+TRIAXIAL 	 0.002397 
+------------------------------------------------------------ 
+ELEMENT N.  9 
+0.019259 	 	 Element total thickness [m] 
+4 	 	Number of Layers 
+PAINT 	 0.000500 
+TRIAXIAL 	 0.002397 
+BALSA 	 0.013966 
+TRIAXIAL 	 0.002397 
+------------------------------------------------------------ 
+ELEMENT N.  10 
+0.007190 	 	 Element total thickness [m] 
+4 	 	Number of Layers 
+PAINT 	 0.000500 
+TRIAXIAL 	 0.002397 
+REINFORCEMENT 	 0.001897 
+TRIAXIAL 	 0.002397 
+------------------------------------------------------------ 
+ELEMENT N.  11 
+0.016862 	 	 Element total thickness [m] 
+3 	 	Number of Layers 
+BIAXIAL 	 0.001448 
+BALSA 	 0.013966 
+BIAXIAL 	 0.001448 
+------------------------------------------------------------ 
+ELEMENT N.  12 
+0.016862 	 	 Element total thickness [m] 
+3 	 	Number of Layers 
+BIAXIAL 	 0.001448 
+BALSA 	 0.013966 
+BIAXIAL 	 0.001448 
+============================================================ 
+                0.00 	 Tx [kN] 
+                0.00 	 Ty [kN] 
+                0.00 	 Tz [kN] 
+                0.00 	 Mx [kNm] 
+                0.00 	 My [kNm] 
+                0.00 	 Mz [kNm] 

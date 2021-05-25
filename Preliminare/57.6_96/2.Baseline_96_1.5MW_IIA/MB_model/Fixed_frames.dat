@@ -1,0 +1,56 @@
+FixedFrames : 
+  FixedFrame :  
+    Name : frame_hub ; 
+    Origin :  96 , -4 ,  0 ; 
+    YVector : -0.08715574274765817, 0.9961946980917455 ,  0 ; 
+    ZVector :  0,  0 ,  1 ; 
+   ; 
+  FixedFrame :  
+    Name : blade_root_frame_1 ; 
+    Origin :  97.19885786589823 , -3.947656735161597 ,  0 ; 
+    YVector : -4.842724817303967e-18, 1.109166338310994e-16 , -1 ; 
+    ZVector : -0.043619387365336, 0.9990482215818578 , 1.110223024625157e-16 ; 
+   ; 
+  FixedFrame :  
+    Name : blade_root_frame_2 ; 
+    Origin :  95.40741409123812 , -4.104387756788445 , -1.038241367394664 ; 
+    YVector : -0.862729915662821, -0.07547908730517322 , 0.5 ; 
+    ZVector : -0.1087994910063726, 0.9933457014258223 , -0.03777549755589501 ; 
+   ; 
+  FixedFrame :  
+    Name : blade_root_frame_3 ; 
+    Origin :  95.40741409123812 , -4.104387756788445 , 1.038241367394664 ; 
+    YVector : 0.862729915662821, 0.07547908730517344 , 0.5 ; 
+    ZVector : -0.1087994910063728, 0.9933457014258223 , 0.0377754975558949 ; 
+   ; 
+  FixedFrame :  
+    Name : tower_frame ; 
+    Origin :   0 ,  0 ,  0 ; 
+    YVector :  0,  1 ,  0 ; 
+    ZVector :  0,  0 ,  1 ; 
+   ; 
+  FixedFrame :  
+    Name : frame_wind_file ; 
+    Origin :  96 , -4 ,  0 ; 
+    YVector :  0,  0 ,  1 ; 
+    ZVector : 0.9902680687415704, -0.1391731009600654 ,  0 ; 
+   ; 
+  FixedFrame :  
+    Name : tower_frame_shape ; 
+    Origin :   0 ,  0 ,  0 ; 
+    YVector :  0,  1 ,  0 ; 
+    ZVector :  0,  0 ,  1 ; 
+   ; 
+  FixedFrame :  
+    Name : frame_shape_nacelle_botton ; 
+    Origin :   0 ,  0 ,  0 ; 
+    YVector :  0,  0 , -1 ; 
+    ZVector :  0,  1 ,  0 ; 
+   ; 
+  FixedFrame :  
+    Name : frame_shape_hub ; 
+    Origin :   0 ,  0 ,  0 ; 
+    YVector :  0,  0 ,  1 ; 
+    ZVector :  0, -1 ,  0 ; 
+   ; 
+ ; 

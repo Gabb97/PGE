@@ -1,0 +1,227 @@
+# ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+# PARAMETRIC NUMBER 1
+
+BeginParametricString : 1 ;
+      File : .\..\..\..\Wind\Turbulent_Wind\NTM_seed1_200sec\TurbA_200sec_3ms ;
+EndParametricString : 1 ;
+
+
+
+BeginParametricString : 2 ;
+      FarFieldFlowVelocity : 0 , 3 , 0 ;
+EndParametricString : 2 ;
+
+
+
+BeginParametricString : 3 ;
+      File : .\..\DLC_NWP\Output\Static\StaticSimulationOutput_3.rcv ;
+EndParametricString : 3 ;
+
+# ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+# PARAMETRIC NUMBER 2
+
+BeginParametricString : 1 ;
+      File : .\..\..\..\Wind\Turbulent_Wind\NTM_seed1_200sec\TurbA_200sec_5ms ;
+EndParametricString : 1 ;
+
+
+
+BeginParametricString : 2 ;
+      FarFieldFlowVelocity : 0 , 5 , 0 ;
+EndParametricString : 2 ;
+
+
+
+BeginParametricString : 3 ;
+      File : .\..\DLC_NWP\Output\Static\StaticSimulationOutput_5.rcv ;
+EndParametricString : 3 ;
+
+# ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+# PARAMETRIC NUMBER 3
+
+BeginParametricString : 1 ;
+      File : .\..\..\..\Wind\Turbulent_Wind\NTM_seed1_200sec\TurbA_200sec_7ms ;
+EndParametricString : 1 ;
+
+
+
+BeginParametricString : 2 ;
+      FarFieldFlowVelocity : 0 , 7 , 0 ;
+EndParametricString : 2 ;
+
+
+
+BeginParametricString : 3 ;
+      File : .\..\DLC_NWP\Output\Static\StaticSimulationOutput_7.rcv ;
+EndParametricString : 3 ;
+
+# ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+# PARAMETRIC NUMBER 4
+
+BeginParametricString : 1 ;
+      File : .\..\..\..\Wind\Turbulent_Wind\NTM_seed1_200sec\TurbA_200sec_9ms ;
+EndParametricString : 1 ;
+
+
+
+BeginParametricString : 2 ;
+      FarFieldFlowVelocity : 0 , 9 , 0 ;
+EndParametricString : 2 ;
+
+
+
+BeginParametricString : 3 ;
+      File : .\..\DLC_NWP\Output\Static\StaticSimulationOutput_9.rcv ;
+EndParametricString : 3 ;
+
+# ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+# PARAMETRIC NUMBER 5
+
+BeginParametricString : 1 ;
+      File : .\..\..\..\Wind\Turbulent_Wind\NTM_seed1_200sec\TurbA_200sec_11ms ;
+EndParametricString : 1 ;
+
+
+
+BeginParametricString : 2 ;
+      FarFieldFlowVelocity : 0 , 11 , 0 ;
+EndParametricString : 2 ;
+
+
+
+BeginParametricString : 3 ;
+      File : .\..\DLC_NWP\Output\Static\StaticSimulationOutput_11.rcv ;
+EndParametricString : 3 ;
+
+# ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+# PARAMETRIC NUMBER 6
+
+BeginParametricString : 1 ;
+      File : .\..\..\..\Wind\Turbulent_Wind\NTM_seed1_200sec\TurbA_200sec_13ms ;
+EndParametricString : 1 ;
+
+
+
+BeginParametricString : 2 ;
+      FarFieldFlowVelocity : 0 , 13 , 0 ;
+EndParametricString : 2 ;
+
+
+
+BeginParametricString : 3 ;
+      File : .\..\DLC_NWP\Output\Static\StaticSimulationOutput_13.rcv ;
+EndParametricString : 3 ;
+
+# ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+# PARAMETRIC NUMBER 7
+
+BeginParametricString : 1 ;
+      File : .\..\..\..\Wind\Turbulent_Wind\NTM_seed1_200sec\TurbA_200sec_15ms ;
+EndParametricString : 1 ;
+
+
+
+BeginParametricString : 2 ;
+      FarFieldFlowVelocity : 0 , 15 , 0 ;
+EndParametricString : 2 ;
+
+
+
+BeginParametricString : 3 ;
+      File : .\..\DLC_NWP\Output\Static\StaticSimulationOutput_15.rcv ;
+EndParametricString : 3 ;
+
+# ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+# PARAMETRIC NUMBER 8
+
+BeginParametricString : 1 ;
+      File : .\..\..\..\Wind\Turbulent_Wind\NTM_seed1_200sec\TurbA_200sec_17ms ;
+EndParametricString : 1 ;
+
+
+
+BeginParametricString : 2 ;
+      FarFieldFlowVelocity : 0 , 17 , 0 ;
+EndParametricString : 2 ;
+
+
+
+BeginParametricString : 3 ;
+      File : .\..\DLC_NWP\Output\Static\StaticSimulationOutput_17.rcv ;
+EndParametricString : 3 ;
+
+# ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+# PARAMETRIC NUMBER 9
+
+BeginParametricString : 1 ;
+      File : .\..\..\..\Wind\Turbulent_Wind\NTM_seed1_200sec\TurbA_200sec_19ms ;
+EndParametricString : 1 ;
+
+
+
+BeginParametricString : 2 ;
+      FarFieldFlowVelocity : 0 , 19 , 0 ;
+EndParametricString : 2 ;
+
+
+
+BeginParametricString : 3 ;
+      File : .\..\DLC_NWP\Output\Static\StaticSimulationOutput_19.rcv ;
+EndParametricString : 3 ;
+
+# ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+# PARAMETRIC NUMBER 10
+
+BeginParametricString : 1 ;
+      File : .\..\..\..\Wind\Turbulent_Wind\NTM_seed1_200sec\TurbA_200sec_21ms ;
+EndParametricString : 1 ;
+
+
+
+BeginParametricString : 2 ;
+      FarFieldFlowVelocity : 0 , 21 , 0 ;
+EndParametricString : 2 ;
+
+
+
+BeginParametricString : 3 ;
+      File : .\..\DLC_NWP\Output\Static\StaticSimulationOutput_21.rcv ;
+EndParametricString : 3 ;
+
+# ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+# PARAMETRIC NUMBER 11
+
+BeginParametricString : 1 ;
+      File : .\..\..\..\Wind\Turbulent_Wind\NTM_seed1_200sec\TurbA_200sec_23ms ;
+EndParametricString : 1 ;
+
+
+
+BeginParametricString : 2 ;
+      FarFieldFlowVelocity : 0 , 23 , 0 ;
+EndParametricString : 2 ;
+
+
+
+BeginParametricString : 3 ;
+      File : .\..\DLC_NWP\Output\Static\StaticSimulationOutput_23.rcv ;
+EndParametricString : 3 ;
+
+# ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+# PARAMETRIC NUMBER 12
+
+BeginParametricString : 1 ;
+      File : .\..\..\..\Wind\Turbulent_Wind\NTM_seed1_200sec\TurbA_200sec_25ms ;
+EndParametricString : 1 ;
+
+
+
+BeginParametricString : 2 ;
+      FarFieldFlowVelocity : 0 , 25 , 0 ;
+EndParametricString : 2 ;
+
+
+
+BeginParametricString : 3 ;
+      File : .\..\DLC_NWP\Output\Static\StaticSimulationOutput_25.rcv ;
+EndParametricString : 3 ;

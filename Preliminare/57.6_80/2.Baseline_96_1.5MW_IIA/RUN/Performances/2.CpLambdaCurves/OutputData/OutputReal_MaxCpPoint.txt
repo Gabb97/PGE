@@ -1,0 +1,1 @@
+        MaxCp = 4.45356e-01  [-] TSR  @ MaxCp = 8.60000e+00  [-]Pitch @ MaxCp = -1.60000e+00 [deg]

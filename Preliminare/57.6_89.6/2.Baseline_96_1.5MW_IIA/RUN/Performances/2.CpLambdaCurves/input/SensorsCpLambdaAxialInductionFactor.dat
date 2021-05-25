@@ -1,0 +1,214 @@
+Sensors :
+
+    Sensor :
+        Name            : HubFixedForces ;
+        Beam            : drive_train_shaft_1 ;
+        Sensing         : Forces ;
+        InReferenceFrame: local ;
+        EtaValue        : 0.5 ;
+    ;
+    Sensor :
+        Name            : LiftingLineAProp1001 ;
+        LiftingLine     : lifting_line_1_1 ;
+        Sensing         : AirstationAeroProperties ;
+        InReferenceFrame: LOCAL ;
+        EtaValue        : 0 ;
+    ;
+    Sensor :
+        Name            : LiftingLineAProp1002 ;
+        LiftingLine     : lifting_line_1_1 ;
+        Sensing         : AirstationAeroProperties ;
+        InReferenceFrame: LOCAL ;
+        EtaValue        : 0.005681912681912649 ;
+    ;
+    Sensor :
+        Name            : LiftingLineAProp1003 ;
+        LiftingLine     : lifting_line_1_1 ;
+        Sensing         : AirstationAeroProperties ;
+        InReferenceFrame: LOCAL ;
+        EtaValue        : 0.01704573804573795 ;
+    ;
+    Sensor :
+        Name            : LiftingLineAProp1004 ;
+        LiftingLine     : lifting_line_1_1 ;
+        Sensing         : AirstationAeroProperties ;
+        InReferenceFrame: LOCAL ;
+        EtaValue        : 0.02840956340956347 ;
+    ;
+    Sensor :
+        Name            : LiftingLineAProp1005 ;
+        LiftingLine     : lifting_line_1_1 ;
+        Sensing         : AirstationAeroProperties ;
+        InReferenceFrame: LOCAL ;
+        EtaValue        : 0.03977338877338876 ;
+    ;
+    Sensor :
+        Name            : LiftingLineAProp1006 ;
+        LiftingLine     : lifting_line_1_1 ;
+        Sensing         : AirstationAeroProperties ;
+        InReferenceFrame: LOCAL ;
+        EtaValue        : 0.05681808731808724 ;
+    ;
+    Sensor :
+        Name            : LiftingLineAProp1007 ;
+        LiftingLine     : lifting_line_1_1 ;
+        Sensing         : AirstationAeroProperties ;
+        InReferenceFrame: LOCAL ;
+        EtaValue        : 0.07954469854469859 ;
+    ;
+    Sensor :
+        Name            : LiftingLineAProp1008 ;
+        LiftingLine     : lifting_line_1_1 ;
+        Sensing         : AirstationAeroProperties ;
+        InReferenceFrame: LOCAL ;
+        EtaValue        : 0.1022723492723493 ;
+    ;
+    Sensor :
+        Name            : LiftingLineAProp1009 ;
+        LiftingLine     : lifting_line_1_1 ;
+        Sensing         : AirstationAeroProperties ;
+        InReferenceFrame: LOCAL ;
+        EtaValue        : 0.1363638253638255 ;
+    ;
+    Sensor :
+        Name            : LiftingLineAProp10010 ;
+        LiftingLine     : lifting_line_1_1 ;
+        Sensing         : AirstationAeroProperties ;
+        InReferenceFrame: LOCAL ;
+        EtaValue        : 0.1818180873180872 ;
+    ;
+    Sensor :
+        Name            : LiftingLineAProp10011 ;
+        LiftingLine     : lifting_line_1_1 ;
+        Sensing         : AirstationAeroProperties ;
+        InReferenceFrame: LOCAL ;
+        EtaValue        : 0.2272723492723493 ;
+    ;
+    Sensor :
+        Name            : LiftingLineAProp10012 ;
+        LiftingLine     : lifting_line_1_1 ;
+        Sensing         : AirstationAeroProperties ;
+        InReferenceFrame: LOCAL ;
+        EtaValue        : 0.2727276507276507 ;
+    ;
+    Sensor :
+        Name            : LiftingLineAProp10013 ;
+        LiftingLine     : lifting_line_1_1 ;
+        Sensing         : AirstationAeroProperties ;
+        InReferenceFrame: LOCAL ;
+        EtaValue        : 0.3181819126819127 ;
+    ;
+    Sensor :
+        Name            : LiftingLineAProp10014 ;
+        LiftingLine     : lifting_line_1_1 ;
+        Sensing         : AirstationAeroProperties ;
+        InReferenceFrame: LOCAL ;
+        EtaValue        : 0.3636361746361747 ;
+    ;
+    Sensor :
+        Name            : LiftingLineAProp10015 ;
+        LiftingLine     : lifting_line_1_1 ;
+        Sensing         : AirstationAeroProperties ;
+        InReferenceFrame: LOCAL ;
+        EtaValue        : 0.4090914760914761 ;
+    ;
+    Sensor :
+        Name            : LiftingLineAProp10016 ;
+        LiftingLine     : lifting_line_1_1 ;
+        Sensing         : AirstationAeroProperties ;
+        InReferenceFrame: LOCAL ;
+        EtaValue        : 0.4545457380457381 ;
+    ;
+    Sensor :
+        Name            : LiftingLineAProp10017 ;
+        LiftingLine     : lifting_line_1_1 ;
+        Sensing         : AirstationAeroProperties ;
+        InReferenceFrame: LOCAL ;
+        EtaValue        : 0.5 ;
+    ;
+    Sensor :
+        Name            : LiftingLineAProp10018 ;
+        LiftingLine     : lifting_line_1_1 ;
+        Sensing         : AirstationAeroProperties ;
+        InReferenceFrame: LOCAL ;
+        EtaValue        : 0.5454542619542619 ;
+    ;
+    Sensor :
+        Name            : LiftingLineAProp10019 ;
+        LiftingLine     : lifting_line_1_1 ;
+        Sensing         : AirstationAeroProperties ;
+        InReferenceFrame: LOCAL ;
+        EtaValue        : 0.5909085239085239 ;
+    ;
+    Sensor :
+        Name            : LiftingLineAProp10020 ;
+        LiftingLine     : lifting_line_1_1 ;
+        Sensing         : AirstationAeroProperties ;
+        InReferenceFrame: LOCAL ;
+        EtaValue        : 0.6363638253638253 ;
+    ;
+    Sensor :
+        Name            : LiftingLineAProp10021 ;
+        LiftingLine     : lifting_line_1_1 ;
+        Sensing         : AirstationAeroProperties ;
+        InReferenceFrame: LOCAL ;
+        EtaValue        : 0.6818180873180874 ;
+    ;
+    Sensor :
+        Name            : LiftingLineAProp10022 ;
+        LiftingLine     : lifting_line_1_1 ;
+        Sensing         : AirstationAeroProperties ;
+        InReferenceFrame: LOCAL ;
+        EtaValue        : 0.7272723492723493 ;
+    ;
+    Sensor :
+        Name            : LiftingLineAProp10023 ;
+        LiftingLine     : lifting_line_1_1 ;
+        Sensing         : AirstationAeroProperties ;
+        InReferenceFrame: LOCAL ;
+        EtaValue        : 0.7727276507276508 ;
+    ;
+    Sensor :
+        Name            : LiftingLineAProp10024 ;
+        LiftingLine     : lifting_line_1_1 ;
+        Sensing         : AirstationAeroProperties ;
+        InReferenceFrame: LOCAL ;
+        EtaValue        : 0.8181819126819127 ;
+    ;
+    Sensor :
+        Name            : LiftingLineAProp10025 ;
+        LiftingLine     : lifting_line_1_1 ;
+        Sensing         : AirstationAeroProperties ;
+        InReferenceFrame: LOCAL ;
+        EtaValue        : 0.8636361746361746 ;
+    ;
+    Sensor :
+        Name            : LiftingLineAProp10026 ;
+        LiftingLine     : lifting_line_1_1 ;
+        Sensing         : AirstationAeroProperties ;
+        InReferenceFrame: LOCAL ;
+        EtaValue        : 0.9090914760914761 ;
+    ;
+    Sensor :
+        Name            : LiftingLineAProp10027 ;
+        LiftingLine     : lifting_line_1_1 ;
+        Sensing         : AirstationAeroProperties ;
+        InReferenceFrame: LOCAL ;
+        EtaValue        : 0.9545457380457381 ;
+    ;
+    Sensor :
+        Name            : LiftingLineAProp10028 ;
+        LiftingLine     : lifting_line_1_1 ;
+        Sensing         : AirstationAeroProperties ;
+        InReferenceFrame: LOCAL ;
+        EtaValue        : 0.9886361746361746 ;
+    ;
+    Sensor :
+        Name            : LiftingLineAProp10029 ;
+        LiftingLine     : lifting_line_1_1 ;
+        Sensing         : AirstationAeroProperties ;
+        InReferenceFrame: LOCAL ;
+        EtaValue        : 1 ;
+    ;
+;
+

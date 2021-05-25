@@ -1,0 +1,47 @@
+%------------------
+%NACELLE GEOMETRY
+%------------------
+
+%Nacelle width	[m]
+     4.0
+
+%Nacelle length	[m]
+     12
+
+%Nacelle height	[m]
+     4.0	
+
+%Nacelle drag coefficient	
+     1.2	
+
+%-----------------
+%NACELLE MASS
+%------------------
+
+
+
+
+%Nacelle mass	[kg]
+    55000
+
+%Nacelle centre of mass lateral offset	[m]
+
+     0.0	
+
+%Nacelle centre of mass above tower top	[m]
+      1.0	
+
+%Nacelle centre of mass in front of tower axis	[m]
+      0
+
+%Yaw inertia of nacelle	[kgm²] (with respect the tower axis) --?
+    10000	
+
+%Total Tower-head Mass	[kg] NOT USED
+    0	
+
+%Total Yaw Inertia: 0° azimuth	[kgm²]  (with respect the tower axis) NOT USED
+    0
+
+%Total Yaw Inertia: 90° azimuth	[kgm²]  (with respect the tower axis) NOT USED
+    0

@@ -1,0 +1,331 @@
+
+
+ *****************************************************
+ *                     Cp-Lambda                     *
+ *                                                   *
+ *   a Code for Performance, Loads, Aeroelasticity   *
+ *          by Multi-Body Dynamics Analysis          *
+ *                                                   *
+ *   Department of Aerospace Science and Technology  *
+ *               Politecnico di Milano               *
+ *                                                   *
+ *         Version 6.3641PGE2021 March.2021          *
+ *                                                   *
+ *                                                   *
+ *****************************************************
+ *                                                   *
+ *          Warning: this is a DEMO version          *
+ *          for academic purposes,                   *
+ *          not suitable for industrial projects     *
+ *          Limitations are on physical constants    *
+ *          and on some simulation parameters:       *
+ *                                                   *
+ *****************************************************
+                                                      
+                     Fixed values:                    
+            Last update:    March 18, 2021            
+    + Air density                     = [1.300e+00]       
+    + Gravitational field             = [9.200e+00]       
+    + Second order actuator frequency = [5.000e+00]       
+    + Gear box ratio                  = [1.000e+00]       
+                                                      
+    - Maximum simulation time         = [2.101e+02]       
+    - Maximum simulation time steps   = [21100]       
+    - Maximum sensors number          = [0070]       
+    - Maximum degree of freedom       = [2600]       
+    - Maximum wind grid points        = [0010]       
+    - Wind grid size                  = [0140]       
+    - Aero Tolerance (apx1)           = [1.000e-03]       
+    - Internal PID or LQR controller only             
+                                                      
+    # Deadline      Mon Nov  1 22:59:59 2021
+                                
+ *****************************************************
+
+                 Fri May 21 19:07:40 2021
+
+
+
+
+                    *************************
+                    *   ControlParameters   *
+                    *************************
+
+     File name = [.\OutputIdeal\CpLambda]
+     Read model definition flag       = YES (ECHO =  0).
+     Create finite element model flag = YES (ECHO =  0).
+     Finite element analysis flag     = YES (ECHO =  0).
+     Post processing analysis flag    = YES (ECHO =  0).
+
+
+     Parametric analysis parameters
+     Number of analyses to be performed:   396
+     File name: .\input\Parametric_Axial1.txt
+     First file name number: 1
+
+
+
+                    ******************
+                    *   ModelInput   *
+                    ******************
+
+ $$$ Mass moments of inertia about e2 or/and e3 axes are adjusted to ensure consistent mass matrix:
+ $$$ New mass moments of inertia are:
+     m11 =  6.28449e+02; m22 =  3.14224e+02; m33 =  3.14224e+02
+ $$$ Mass moments of inertia about e2 or/and e3 axes are adjusted to ensure consistent mass matrix:
+ $$$ New mass moments of inertia are:
+     m11 =  5.03734e+02; m22 =  0.00000e+00; m33 =  5.03734e+02
+ $$$ Mass moments of inertia about e2 or/and e3 axes are adjusted to ensure consistent mass matrix:
+ $$$ New mass moments of inertia are:
+     m11 =  3.78793e+02; m22 =  0.00000e+00; m33 =  3.78793e+02
+ $$$ Mass moments of inertia about e2 or/and e3 axes are adjusted to ensure consistent mass matrix:
+ $$$ New mass moments of inertia are:
+     m11 =  2.54303e+02; m22 =  0.00000e+00; m33 =  2.54303e+02
+ $$$ Mass moments of inertia about e2 or/and e3 axes are adjusted to ensure consistent mass matrix:
+ $$$ New mass moments of inertia are:
+     m11 =  2.46447e+02; m22 =  0.00000e+00; m33 =  2.46447e+02
+ $$$ Mass moments of inertia about e2 or/and e3 axes are adjusted to ensure consistent mass matrix:
+ $$$ New mass moments of inertia are:
+     m11 =  2.52514e+02; m22 =  0.00000e+00; m33 =  2.52514e+02
+ $$$ Mass moments of inertia about e2 or/and e3 axes are adjusted to ensure consistent mass matrix:
+ $$$ New mass moments of inertia are:
+     m11 =  2.58576e+02; m22 =  0.00000e+00; m33 =  2.58576e+02
+ $$$ Mass moments of inertia about e2 or/and e3 axes are adjusted to ensure consistent mass matrix:
+ $$$ New mass moments of inertia are:
+     m11 =  2.64097e+02; m22 =  0.00000e+00; m33 =  2.64097e+02
+ $$$ Mass moments of inertia about e2 or/and e3 axes are adjusted to ensure consistent mass matrix:
+ $$$ New mass moments of inertia are:
+     m11 =  2.69476e+02; m22 =  0.00000e+00; m33 =  2.69476e+02
+ $$$ Mass moments of inertia about e2 or/and e3 axes are adjusted to ensure consistent mass matrix:
+ $$$ New mass moments of inertia are:
+     m11 =  2.74856e+02; m22 =  0.00000e+00; m33 =  2.74856e+02
+ $$$ Mass moments of inertia about e2 or/and e3 axes are adjusted to ensure consistent mass matrix:
+ $$$ New mass moments of inertia are:
+     m11 =  2.85493e+02; m22 =  0.00000e+00; m33 =  2.85493e+02
+ $$$ Mass moments of inertia about e2 or/and e3 axes are adjusted to ensure consistent mass matrix:
+ $$$ New mass moments of inertia are:
+     m11 =  2.98496e+02; m22 =  0.00000e+00; m33 =  2.98496e+02
+ $$$ Mass moments of inertia about e2 or/and e3 axes are adjusted to ensure consistent mass matrix:
+ $$$ New mass moments of inertia are:
+     m11 =  3.11499e+02; m22 =  0.00000e+00; m33 =  3.11499e+02
+ $$$ Mass moments of inertia about e2 or/and e3 axes are adjusted to ensure consistent mass matrix:
+ $$$ New mass moments of inertia are:
+     m11 =  3.12617e+02; m22 =  0.00000e+00; m33 =  3.12617e+02
+ $$$ Mass moments of inertia about e2 or/and e3 axes are adjusted to ensure consistent mass matrix:
+ $$$ New mass moments of inertia are:
+     m11 =  3.05326e+02; m22 =  0.00000e+00; m33 =  3.05326e+02
+ $$$ Mass moments of inertia about e2 or/and e3 axes are adjusted to ensure consistent mass matrix:
+ $$$ New mass moments of inertia are:
+     m11 =  2.98042e+02; m22 =  0.00000e+00; m33 =  2.98042e+02
+ $$$ Mass moments of inertia about e2 or/and e3 axes are adjusted to ensure consistent mass matrix:
+ $$$ New mass moments of inertia are:
+     m11 =  2.86955e+02; m22 =  0.00000e+00; m33 =  2.86955e+02
+ $$$ Mass moments of inertia about e2 or/and e3 axes are adjusted to ensure consistent mass matrix:
+ $$$ New mass moments of inertia are:
+     m11 =  2.71799e+02; m22 =  0.00000e+00; m33 =  2.71799e+02
+ $$$ Mass moments of inertia about e2 or/and e3 axes are adjusted to ensure consistent mass matrix:
+ $$$ New mass moments of inertia are:
+     m11 =  2.63463e+02; m22 =  0.00000e+00; m33 =  2.63463e+02
+ $$$ Mass moments of inertia about e2 or/and e3 axes are adjusted to ensure consistent mass matrix:
+ $$$ New mass moments of inertia are:
+     m11 =  2.56642e+02; m22 =  0.00000e+00; m33 =  2.56642e+02
+ $$$ Mass moments of inertia about e2 or/and e3 axes are adjusted to ensure consistent mass matrix:
+ $$$ New mass moments of inertia are:
+     m11 =  2.45035e+02; m22 =  0.00000e+00; m33 =  2.45035e+02
+ $$$ Mass moments of inertia about e2 or/and e3 axes are adjusted to ensure consistent mass matrix:
+ $$$ New mass moments of inertia are:
+     m11 =  2.39237e+02; m22 =  0.00000e+00; m33 =  2.39237e+02
+ $$$ Mass moments of inertia about e2 or/and e3 axes are adjusted to ensure consistent mass matrix:
+ $$$ New mass moments of inertia are:
+     m11 =  2.33439e+02; m22 =  0.00000e+00; m33 =  2.33439e+02
+ $$$ Mass moments of inertia about e2 or/and e3 axes are adjusted to ensure consistent mass matrix:
+ $$$ New mass moments of inertia are:
+     m11 =  2.26825e+02; m22 =  0.00000e+00; m33 =  2.26825e+02
+ $$$ Mass moments of inertia about e2 or/and e3 axes are adjusted to ensure consistent mass matrix:
+ $$$ New mass moments of inertia are:
+     m11 =  2.18053e+02; m22 =  0.00000e+00; m33 =  2.18053e+02
+ $$$ Mass moments of inertia about e2 or/and e3 axes are adjusted to ensure consistent mass matrix:
+ $$$ New mass moments of inertia are:
+     m11 =  2.09290e+02; m22 =  0.00000e+00; m33 =  2.09290e+02
+ $$$ Mass moments of inertia about e2 or/and e3 axes are adjusted to ensure consistent mass matrix:
+ $$$ New mass moments of inertia are:
+     m11 =  2.00497e+02; m22 =  0.00000e+00; m33 =  2.00497e+02
+ $$$ Mass moments of inertia about e2 or/and e3 axes are adjusted to ensure consistent mass matrix:
+ $$$ New mass moments of inertia are:
+     m11 =  1.91563e+02; m22 =  0.00000e+00; m33 =  1.91563e+02
+ $$$ Mass moments of inertia about e2 or/and e3 axes are adjusted to ensure consistent mass matrix:
+ $$$ New mass moments of inertia are:
+     m11 =  1.82629e+02; m22 =  0.00000e+00; m33 =  1.82629e+02
+ $$$ Mass moments of inertia about e2 or/and e3 axes are adjusted to ensure consistent mass matrix:
+ $$$ New mass moments of inertia are:
+     m11 =  1.73754e+02; m22 =  0.00000e+00; m33 =  1.73754e+02
+ $$$ Mass moments of inertia about e2 or/and e3 axes are adjusted to ensure consistent mass matrix:
+ $$$ New mass moments of inertia are:
+     m11 =  1.50799e+02; m22 =  0.00000e+00; m33 =  1.50799e+02
+ $$$ Mass moments of inertia about e2 or/and e3 axes are adjusted to ensure consistent mass matrix:
+ $$$ New mass moments of inertia are:
+     m11 =  1.50799e+02; m22 =  0.00000e+00; m33 =  1.50799e+02
+ $$$ Mass moments of inertia about e2 or/and e3 axes are adjusted to ensure consistent mass matrix:
+ $$$ New mass moments of inertia are:
+     m11 =  1.65586e+02; m22 =  0.00000e+00; m33 =  1.65586e+02
+ $$$ Mass moments of inertia about e2 or/and e3 axes are adjusted to ensure consistent mass matrix:
+ $$$ New mass moments of inertia are:
+     m11 =  1.56824e+02; m22 =  0.00000e+00; m33 =  1.56824e+02
+ $$$ Mass moments of inertia about e2 or/and e3 axes are adjusted to ensure consistent mass matrix:
+ $$$ New mass moments of inertia are:
+     m11 =  1.48082e+02; m22 =  0.00000e+00; m33 =  1.48082e+02
+ $$$ Mass moments of inertia about e2 or/and e3 axes are adjusted to ensure consistent mass matrix:
+ $$$ New mass moments of inertia are:
+     m11 =  1.40002e+02; m22 =  0.00000e+00; m33 =  1.40002e+02
+ $$$ Mass moments of inertia about e2 or/and e3 axes are adjusted to ensure consistent mass matrix:
+ $$$ New mass moments of inertia are:
+     m11 =  1.31978e+02; m22 =  0.00000e+00; m33 =  1.31978e+02
+ $$$ Mass moments of inertia about e2 or/and e3 axes are adjusted to ensure consistent mass matrix:
+ $$$ New mass moments of inertia are:
+     m11 =  1.23977e+02; m22 =  0.00000e+00; m33 =  1.23977e+02
+ $$$ Mass moments of inertia about e2 or/and e3 axes are adjusted to ensure consistent mass matrix:
+ $$$ New mass moments of inertia are:
+     m11 =  1.16384e+02; m22 =  0.00000e+00; m33 =  1.16384e+02
+ $$$ Mass moments of inertia about e2 or/and e3 axes are adjusted to ensure consistent mass matrix:
+ $$$ New mass moments of inertia are:
+     m11 =  1.08881e+02; m22 =  0.00000e+00; m33 =  1.08881e+02
+ $$$ Mass moments of inertia about e2 or/and e3 axes are adjusted to ensure consistent mass matrix:
+ $$$ New mass moments of inertia are:
+     m11 =  1.01406e+02; m22 =  0.00000e+00; m33 =  1.01406e+02
+ $$$ Mass moments of inertia about e2 or/and e3 axes are adjusted to ensure consistent mass matrix:
+ $$$ New mass moments of inertia are:
+     m11 =  9.44570e+01; m22 =  0.00000e+00; m33 =  9.44570e+01
+ $$$ Mass moments of inertia about e2 or/and e3 axes are adjusted to ensure consistent mass matrix:
+ $$$ New mass moments of inertia are:
+     m11 =  8.76976e+01; m22 =  0.00000e+00; m33 =  8.76976e+01
+ $$$ Mass moments of inertia about e2 or/and e3 axes are adjusted to ensure consistent mass matrix:
+ $$$ New mass moments of inertia are:
+     m11 =  8.09697e+01; m22 =  0.00000e+00; m33 =  8.09697e+01
+ $$$ Mass moments of inertia about e2 or/and e3 axes are adjusted to ensure consistent mass matrix:
+ $$$ New mass moments of inertia are:
+     m11 =  7.51598e+01; m22 =  0.00000e+00; m33 =  7.51598e+01
+ $$$ Mass moments of inertia about e2 or/and e3 axes are adjusted to ensure consistent mass matrix:
+ $$$ New mass moments of inertia are:
+     m11 =  6.98526e+01; m22 =  0.00000e+00; m33 =  6.98526e+01
+ $$$ Mass moments of inertia about e2 or/and e3 axes are adjusted to ensure consistent mass matrix:
+ $$$ New mass moments of inertia are:
+     m11 =  6.45712e+01; m22 =  0.00000e+00; m33 =  6.45712e+01
+ $$$ Mass moments of inertia about e2 or/and e3 axes are adjusted to ensure consistent mass matrix:
+ $$$ New mass moments of inertia are:
+     m11 =  5.99687e+01; m22 =  0.00000e+00; m33 =  5.99687e+01
+ $$$ Mass moments of inertia about e2 or/and e3 axes are adjusted to ensure consistent mass matrix:
+ $$$ New mass moments of inertia are:
+     m11 =  5.59175e+01; m22 =  0.00000e+00; m33 =  5.59175e+01
+ $$$ Mass moments of inertia about e2 or/and e3 axes are adjusted to ensure consistent mass matrix:
+ $$$ New mass moments of inertia are:
+     m11 =  5.18850e+01; m22 =  0.00000e+00; m33 =  5.18850e+01
+ $$$ Mass moments of inertia about e2 or/and e3 axes are adjusted to ensure consistent mass matrix:
+ $$$ New mass moments of inertia are:
+     m11 =  4.82898e+01; m22 =  0.00000e+00; m33 =  4.82898e+01
+ $$$ Mass moments of inertia about e2 or/and e3 axes are adjusted to ensure consistent mass matrix:
+ $$$ New mass moments of inertia are:
+     m11 =  4.52251e+01; m22 =  0.00000e+00; m33 =  4.52251e+01
+ $$$ Mass moments of inertia about e2 or/and e3 axes are adjusted to ensure consistent mass matrix:
+ $$$ New mass moments of inertia are:
+     m11 =  4.21730e+01; m22 =  0.00000e+00; m33 =  4.21730e+01
+ $$$ Mass moments of inertia about e2 or/and e3 axes are adjusted to ensure consistent mass matrix:
+ $$$ New mass moments of inertia are:
+     m11 =  3.94001e+01; m22 =  0.00000e+00; m33 =  3.94001e+01
+ $$$ Mass moments of inertia about e2 or/and e3 axes are adjusted to ensure consistent mass matrix:
+ $$$ New mass moments of inertia are:
+     m11 =  3.71514e+01; m22 =  0.00000e+00; m33 =  3.71514e+01
+ $$$ Mass moments of inertia about e2 or/and e3 axes are adjusted to ensure consistent mass matrix:
+ $$$ New mass moments of inertia are:
+     m11 =  3.49114e+01; m22 =  0.00000e+00; m33 =  3.49114e+01
+ $$$ Mass moments of inertia about e2 or/and e3 axes are adjusted to ensure consistent mass matrix:
+ $$$ New mass moments of inertia are:
+     m11 =  3.27716e+01; m22 =  0.00000e+00; m33 =  3.27716e+01
+ $$$ Mass moments of inertia about e2 or/and e3 axes are adjusted to ensure consistent mass matrix:
+ $$$ New mass moments of inertia are:
+     m11 =  3.09271e+01; m22 =  0.00000e+00; m33 =  3.09271e+01
+ $$$ Mass moments of inertia about e2 or/and e3 axes are adjusted to ensure consistent mass matrix:
+ $$$ New mass moments of inertia are:
+     m11 =  2.90893e+01; m22 =  0.00000e+00; m33 =  2.90893e+01
+ $$$ Mass moments of inertia about e2 or/and e3 axes are adjusted to ensure consistent mass matrix:
+ $$$ New mass moments of inertia are:
+     m11 =  2.73087e+01; m22 =  0.00000e+00; m33 =  2.73087e+01
+ $$$ Mass moments of inertia about e2 or/and e3 axes are adjusted to ensure consistent mass matrix:
+ $$$ New mass moments of inertia are:
+     m11 =  2.58493e+01; m22 =  0.00000e+00; m33 =  2.58493e+01
+ $$$ Mass moments of inertia about e2 or/and e3 axes are adjusted to ensure consistent mass matrix:
+ $$$ New mass moments of inertia are:
+     m11 =  2.43946e+01; m22 =  0.00000e+00; m33 =  2.43946e+01
+ $$$ Mass moments of inertia about e2 or/and e3 axes are adjusted to ensure consistent mass matrix:
+ $$$ New mass moments of inertia are:
+     m11 =  2.29567e+01; m22 =  0.00000e+00; m33 =  2.29567e+01
+ $$$ Mass moments of inertia about e2 or/and e3 axes are adjusted to ensure consistent mass matrix:
+ $$$ New mass moments of inertia are:
+     m11 =  2.19001e+01; m22 =  0.00000e+00; m33 =  2.19001e+01
+ $$$ Mass moments of inertia about e2 or/and e3 axes are adjusted to ensure consistent mass matrix:
+ $$$ New mass moments of inertia are:
+     m11 =  2.08464e+01; m22 =  0.00000e+00; m33 =  2.08464e+01
+ $$$ Mass moments of inertia about e2 or/and e3 axes are adjusted to ensure consistent mass matrix:
+ $$$ New mass moments of inertia are:
+     m11 =  1.97953e+01; m22 =  0.00000e+00; m33 =  1.97953e+01
+ $$$ Mass moments of inertia about e2 or/and e3 axes are adjusted to ensure consistent mass matrix:
+ $$$ New mass moments of inertia are:
+     m11 =  1.89650e+01; m22 =  0.00000e+00; m33 =  1.89650e+01
+ $$$ Mass moments of inertia about e2 or/and e3 axes are adjusted to ensure consistent mass matrix:
+ $$$ New mass moments of inertia are:
+     m11 =  1.81525e+01; m22 =  0.00000e+00; m33 =  1.81525e+01
+ $$$ Mass moments of inertia about e2 or/and e3 axes are adjusted to ensure consistent mass matrix:
+ $$$ New mass moments of inertia are:
+     m11 =  1.73416e+01; m22 =  0.00000e+00; m33 =  1.73416e+01
+ $$$ Mass moments of inertia about e2 or/and e3 axes are adjusted to ensure consistent mass matrix:
+ $$$ New mass moments of inertia are:
+     m11 =  1.66635e+01; m22 =  0.00000e+00; m33 =  1.66635e+01
+ $$$ Mass moments of inertia about e2 or/and e3 axes are adjusted to ensure consistent mass matrix:
+ $$$ New mass moments of inertia are:
+     m11 =  1.60137e+01; m22 =  0.00000e+00; m33 =  1.60137e+01
+ $$$ Mass moments of inertia about e2 or/and e3 axes are adjusted to ensure consistent mass matrix:
+ $$$ New mass moments of inertia are:
+     m11 =  1.53642e+01; m22 =  0.00000e+00; m33 =  1.53642e+01
+ $$$ Mass moments of inertia about e2 or/and e3 axes are adjusted to ensure consistent mass matrix:
+ $$$ New mass moments of inertia are:
+     m11 =  1.48019e+01; m22 =  0.00000e+00; m33 =  1.48019e+01
+ $$$ Mass moments of inertia about e2 or/and e3 axes are adjusted to ensure consistent mass matrix:
+ $$$ New mass moments of inertia are:
+     m11 =  1.42726e+01; m22 =  0.00000e+00; m33 =  1.42726e+01
+ $$$ Mass moments of inertia about e2 or/and e3 axes are adjusted to ensure consistent mass matrix:
+ $$$ New mass moments of inertia are:
+     m11 =  1.37433e+01; m22 =  0.00000e+00; m33 =  1.37433e+01
+ $$$ Mass moments of inertia about e2 or/and e3 axes are adjusted to ensure consistent mass matrix:
+ $$$ New mass moments of inertia are:
+     m11 =  1.30426e+01; m22 =  0.00000e+00; m33 =  1.30426e+01
+ $$$ Mass moments of inertia about e2 or/and e3 axes are adjusted to ensure consistent mass matrix:
+ $$$ New mass moments of inertia are:
+     m11 =  1.22355e+01; m22 =  0.00000e+00; m33 =  1.22355e+01
+ $$$ Mass moments of inertia about e2 or/and e3 axes are adjusted to ensure consistent mass matrix:
+ $$$ New mass moments of inertia are:
+     m11 =  1.14255e+01; m22 =  0.00000e+00; m33 =  1.14255e+01
+ $$$ Mass moments of inertia about e2 or/and e3 axes are adjusted to ensure consistent mass matrix:
+ $$$ New mass moments of inertia are:
+     m11 =  1.07512e+01; m22 =  0.00000e+00; m33 =  1.07512e+01
+ $$$ Mass moments of inertia about e2 or/and e3 axes are adjusted to ensure consistent mass matrix:
+ $$$ New mass moments of inertia are:
+     m11 =  1.02005e+01; m22 =  0.00000e+00; m33 =  1.02005e+01
+ $$$ Mass moments of inertia about e2 or/and e3 axes are adjusted to ensure consistent mass matrix:
+ $$$ New mass moments of inertia are:
+     m11 =  9.64211e+00; m22 =  0.00000e+00; m33 =  9.64211e+00
+ $$$ Mass moments of inertia about e2 or/and e3 axes are adjusted to ensure consistent mass matrix:
+ $$$ New mass moments of inertia are:
+     m11 =  9.00417e+00; m22 =  0.00000e+00; m33 =  9.00417e+00
+ $$$ Mass moments of inertia about e2 or/and e3 axes are adjusted to ensure consistent mass matrix:
+ $$$ New mass moments of inertia are:
+     m11 =  8.25663e+00; m22 =  0.00000e+00; m33 =  8.25663e+00
+ $$$ Mass moments of inertia about e2 or/and e3 axes are adjusted to ensure consistent mass matrix:
+ $$$ New mass moments of inertia are:
+     m11 =  7.50150e+00; m22 =  0.00000e+00; m33 =  7.50150e+00
+ $$$ Mass moments of inertia about e2 or/and e3 axes are adjusted to ensure consistent mass matrix:
+ $$$ New mass moments of inertia are:
+     m11 =  6.65126e+00; m22 =  0.00000e+00; m33 =  6.65126e+00
+ $$$ Mass moments of inertia about e2 or/and e3 axes are adjusted to ensure consistent mass matrix:
+ $$$ New mass moments of inertia are:
+     m11 =  5.60601e+00; m22 =  0.00000e+00; m33 =  5.60601e+00
+ $$$ Mass moments of inertia about e2 or/and e3 axes are adjusted to ensure consistent mass matrix:
+ $$$ New mass moments of

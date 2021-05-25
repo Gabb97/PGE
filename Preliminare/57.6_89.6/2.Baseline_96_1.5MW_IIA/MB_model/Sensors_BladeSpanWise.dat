@@ -1,0 +1,215 @@
+Sensors: 
+ # *******************   BLADE 1 
+	 Sensor: 
+	 	 Name            : Blade1_Loads_eta0 ; 
+	 	 Beam            : blade_1_1 ; 
+	 	 Sensing         : Forces ; 
+	 	 InReferenceFrame: Local ; 
+	 	 EtaValue        : 0 ; 
+	 ; 
+	 Sensor: 
+	 	 Name            : Blade1_Loads_eta10 ; 
+	 	 Beam            : blade_1_1 ; 
+	 	 Sensing         : Forces ; 
+	 	 InReferenceFrame: Local ; 
+	 	 EtaValue        : 0.312 ; 
+	 ; 
+	 Sensor: 
+	 	 Name            : Blade1_Loads_eta20 ; 
+	 	 Beam            : blade_1_1 ; 
+	 	 Sensing         : Forces ; 
+	 	 InReferenceFrame: Local ; 
+	 	 EtaValue        : 0.624 ; 
+	 ; 
+	 Sensor: 
+	 	 Name            : Blade1_Loads_eta30 ; 
+	 	 Beam            : blade_1_1 ; 
+	 	 Sensing         : Forces ; 
+	 	 InReferenceFrame: Local ; 
+	 	 EtaValue        : 0.936 ; 
+	 ; 
+	 Sensor: 
+	 	 Name            : Blade1_Loads_eta40 ; 
+	 	 Beam            : blade_2_1 ; 
+	 	 Sensing         : Forces ; 
+	 	 InReferenceFrame: Local ; 
+	 	 EtaValue        : 0.11698 ; 
+	 ; 
+	 Sensor: 
+	 	 Name            : Blade1_Loads_eta50 ; 
+	 	 Beam            : blade_2_1 ; 
+	 	 Sensing         : Forces ; 
+	 	 InReferenceFrame: Local ; 
+	 	 EtaValue        : 0.26415 ; 
+	 ; 
+	 Sensor: 
+	 	 Name            : Blade1_Loads_eta60 ; 
+	 	 Beam            : blade_2_1 ; 
+	 	 Sensing         : Forces ; 
+	 	 InReferenceFrame: Local ; 
+	 	 EtaValue        : 0.41132 ; 
+	 ; 
+	 Sensor: 
+	 	 Name            : Blade1_Loads_eta70 ; 
+	 	 Beam            : blade_2_1 ; 
+	 	 Sensing         : Forces ; 
+	 	 InReferenceFrame: Local ; 
+	 	 EtaValue        : 0.55849 ; 
+	 ; 
+	 Sensor: 
+	 	 Name            : Blade1_Loads_eta80 ; 
+	 	 Beam            : blade_2_1 ; 
+	 	 Sensing         : Forces ; 
+	 	 InReferenceFrame: Local ; 
+	 	 EtaValue        : 0.70566 ; 
+	 ; 
+	 Sensor: 
+	 	 Name            : Blade1_Loads_eta90 ; 
+	 	 Beam            : blade_2_1 ; 
+	 	 Sensing         : Forces ; 
+	 	 InReferenceFrame: Local ; 
+	 	 EtaValue        : 0.85283 ; 
+	 ; 
+ # *******************   BLADE 2 
+	 Sensor: 
+	 	 Name            : Blade2_Loads_eta0 ; 
+	 	 Beam            : blade_1_2 ; 
+	 	 Sensing         : Forces ; 
+	 	 InReferenceFrame: Local ; 
+	 	 EtaValue        : 0 ; 
+	 ; 
+	 Sensor: 
+	 	 Name            : Blade2_Loads_eta10 ; 
+	 	 Beam            : blade_1_2 ; 
+	 	 Sensing         : Forces ; 
+	 	 InReferenceFrame: Local ; 
+	 	 EtaValue        : 0.312 ; 
+	 ; 
+	 Sensor: 
+	 	 Name            : Blade2_Loads_eta20 ; 
+	 	 Beam            : blade_1_2 ; 
+	 	 Sensing         : Forces ; 
+	 	 InReferenceFrame: Local ; 
+	 	 EtaValue        : 0.624 ; 
+	 ; 
+	 Sensor: 
+	 	 Name            : Blade2_Loads_eta30 ; 
+	 	 Beam            : blade_1_2 ; 
+	 	 Sensing         : Forces ; 
+	 	 InReferenceFrame: Local ; 
+	 	 EtaValue        : 0.936 ; 
+	 ; 
+	 Sensor: 
+	 	 Name            : Blade2_Loads_eta40 ; 
+	 	 Beam            : blade_2_2 ; 
+	 	 Sensing         : Forces ; 
+	 	 InReferenceFrame: Local ; 
+	 	 EtaValue        : 0.11698 ; 
+	 ; 
+	 Sensor: 
+	 	 Name            : Blade2_Loads_eta50 ; 
+	 	 Beam            : blade_2_2 ; 
+	 	 Sensing         : Forces ; 
+	 	 InReferenceFrame: Local ; 
+	 	 EtaValue        : 0.26415 ; 
+	 ; 
+	 Sensor: 
+	 	 Name            : Blade2_Loads_eta60 ; 
+	 	 Beam            : blade_2_2 ; 
+	 	 Sensing         : Forces ; 
+	 	 InReferenceFrame: Local ; 
+	 	 EtaValue        : 0.41132 ; 
+	 ; 
+	 Sensor: 
+	 	 Name            : Blade2_Loads_eta70 ; 
+	 	 Beam            : blade_2_2 ; 
+	 	 Sensing         : Forces ; 
+	 	 InReferenceFrame: Local ; 
+	 	 EtaValue        : 0.55849 ; 
+	 ; 
+	 Sensor: 
+	 	 Name            : Blade2_Loads_eta80 ; 
+	 	 Beam            : blade_2_2 ; 
+	 	 Sensing         : Forces ; 
+	 	 InReferenceFrame: Local ; 
+	 	 EtaValue        : 0.70566 ; 
+	 ; 
+	 Sensor: 
+	 	 Name            : Blade2_Loads_eta90 ; 
+	 	 Beam            : blade_2_2 ; 
+	 	 Sensing         : Forces ; 
+	 	 InReferenceFrame: Local ; 
+	 	 EtaValue        : 0.85283 ; 
+	 ; 
+ # *******************   BLADE 3 
+	 Sensor: 
+	 	 Name            : Blade3_Loads_eta0 ; 
+	 	 Beam            : blade_1_3 ; 
+	 	 Sensing         : Forces ; 
+	 	 InReferenceFrame: Local ; 
+	 	 EtaValue        : 0 ; 
+	 ; 
+	 Sensor: 
+	 	 Name            : Blade3_Loads_eta10 ; 
+	 	 Beam            : blade_1_3 ; 
+	 	 Sensing         : Forces ; 
+	 	 InReferenceFrame: Local ; 
+	 	 EtaValue        : 0.312 ; 
+	 ; 
+	 Sensor: 
+	 	 Name            : Blade3_Loads_eta20 ; 
+	 	 Beam            : blade_1_3 ; 
+	 	 Sensing         : Forces ; 
+	 	 InReferenceFrame: Local ; 
+	 	 EtaValue        : 0.624 ; 
+	 ; 
+	 Sensor: 
+	 	 Name            : Blade3_Loads_eta30 ; 
+	 	 Beam            : blade_1_3 ; 
+	 	 Sensing         : Forces ; 
+	 	 InReferenceFrame: Local ; 
+	 	 EtaValue        : 0.936 ; 
+	 ; 
+	 Sensor: 
+	 	 Name            : Blade3_Loads_eta40 ; 
+	 	 Beam            : blade_2_3 ; 
+	 	 Sensing         : Forces ; 
+	 	 InReferenceFrame: Local ; 
+	 	 EtaValue        : 0.11698 ; 
+	 ; 
+	 Sensor: 
+	 	 Name            : Blade3_Loads_eta50 ; 
+	 	 Beam            : blade_2_3 ; 
+	 	 Sensing         : Forces ; 
+	 	 InReferenceFrame: Local ; 
+	 	 EtaValue        : 0.26415 ; 
+	 ; 
+	 Sensor: 
+	 	 Name            : Blade3_Loads_eta60 ; 
+	 	 Beam            : blade_2_3 ; 
+	 	 Sensing         : Forces ; 
+	 	 InReferenceFrame: Local ; 
+	 	 EtaValue        : 0.41132 ; 
+	 ; 
+	 Sensor: 
+	 	 Name            : Blade3_Loads_eta70 ; 
+	 	 Beam            : blade_2_3 ; 
+	 	 Sensing         : Forces ; 
+	 	 InReferenceFrame: Local ; 
+	 	 EtaValue        : 0.55849 ; 
+	 ; 
+	 Sensor: 
+	 	 Name            : Blade3_Loads_eta80 ; 
+	 	 Beam            : blade_2_3 ; 
+	 	 Sensing         : Forces ; 
+	 	 InReferenceFrame: Local ; 
+	 	 EtaValue        : 0.70566 ; 
+	 ; 
+	 Sensor: 
+	 	 Name            : Blade3_Loads_eta90 ; 
+	 	 Beam            : blade_2_3 ; 
+	 	 Sensing         : Forces ; 
+	 	 InReferenceFrame: Local ; 
+	 	 EtaValue        : 0.85283 ; 
+	 ; 
+; 

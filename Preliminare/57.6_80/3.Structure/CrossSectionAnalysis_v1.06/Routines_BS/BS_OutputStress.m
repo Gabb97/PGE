@@ -1,0 +1,1 @@
+function BS_OutputStress

@@ -1,0 +1,1 @@
+CTRL                        0WT_controller_file          .\..\..\..\Controller\WTControllerFile.txtPID_file                    .\..\..\..\Controller\PIDInputFile.txtInitialState                10GridFailTime                9999.0RotorSpeedStopSimulation    -10.5PitchOneRunawayTime         9999.0PitchOneRunawayRate         4

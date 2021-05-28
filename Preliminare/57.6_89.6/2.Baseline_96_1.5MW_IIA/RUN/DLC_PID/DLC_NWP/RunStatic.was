@@ -1,0 +1,125 @@
+ControlParameters:
+  File : .\Output\Static\StaticSimulationOutput;
+  ModelInput        : yes; OutputLevel: 1;
+  ModelAssembly     : yes; OutputLevel: 1;
+  MultibodyAnalysis : yes; OutputLevel: 1;
+  PostProcessing    : yes; OutputLevel: 0;
+  Files4View        :  no;
+  ParametricAnalysisParameters :
+    NumberOfParametricAnalyses : 12 ;
+    File : .\Input\Wind\ParametricStatic.txt ;
+    ParametricAnalysisFileNameList : _3, _5, _7, _9, _11, _13, _15, _17, _19, _21, _23, _25     ;
+  ;
+;
+
+ModelInput:
+
+IncludeCommand :
+     File : .\..\..\..\MB_Model\Fixed_frames.dat ;
+
+     File : .\..\..\..\MB_Model\Blade_1.dat ;
+     File : .\..\..\..\MB_Model\Blade_2.dat ;
+     File : .\..\..\..\MB_Model\Blade_3.dat ;
+     File : .\..\..\..\MB_Model\Blade_Airtable.dat ;
+     File : .\..\..\..\MB_Model\Blade_Lifting_line_1.dat ;
+     File : .\..\..\..\MB_Model\Blade_Lifting_line_2.dat ;
+     File : .\..\..\..\MB_Model\Blade_Lifting_line_3.dat ;
+     File : .\..\..\..\MB_Model\Blade_Lifting_line_Properties.dat ;
+     File : .\..\..\..\MB_model\Blade_point_masses.dat ;
+     File : .\..\..\..\MB_Model\Blade_properties.dat ;
+     File : .\..\..\..\MB_Model\Generator_and_drive_train.dat ;
+     File : .\..\..\..\MB_Model\Ground_static.dat ;
+     File : .\..\..\..\MB_Model\Hub.dat ;
+     # File : .\..\..\..\MB_Model\Hub_Lifting_line.dat ; # not used here 
+     File : .\..\..\..\MB_Model\Inflow.dat ;
+     File : .\..\..\..\MB_Model\MovingFrames.dat ;
+     File : .\..\..\..\MB_Model\Nacelle.dat ;
+     File : .\..\..\..\MB_Model\Rigid_rotation.dat ;
+     File : .\..\..\..\MB_Model\Rvj_pitch_control_with_time_function.dat ;
+     File : .\..\..\..\MB_Model\Rvj_yaw_control.dat ;
+     File : .\..\..\..\MB_Model\Shape.dat ;
+     File : .\..\..\..\MB_Model\Tower.dat ;
+     File : .\..\..\..\MB_Model\Tower_Lifting_line.dat ;
+
+
+     File : .\..\..\..\MB_Model\Sensors.dat ;
+	 File : .\..\..\..\MB_Model\Sensors_BladeSpanWise.dat ;
+
+     File : .\..\..\..\MB_Model\ControllerStatic.dat ;
+
+;
+
+
+TimeFunctions :
+
+  GoToParametricString :1;
+
+  TimeFunction :
+    Name : yaw_control ;
+    TimeFunctionType : User_Defined ;
+    NumberOfTerms : 3 ;
+    Time :   0 ;   FunctionValue : 0 ;
+    Time : 1.5 ;   FunctionValue : 0 ;
+    Time : 500 ;   FunctionValue : 0 ;
+  ;
+  TimeFunction :
+    Name : air_raising ;
+    TimeFunctionType : User_Defined ;
+    NumberOfTerms : 3 ;
+    Time :   0 ;   FunctionValue : 0 ;
+    Time : 1.5 ;   FunctionValue : 1 ;
+    Time : 500 ;   FunctionValue : 1 ;
+  ;
+  TimeFunction :
+    Name : gravity_schedule ;
+    TimeFunctionType : User_Defined ;
+    NumberOfTerms : 3 ;
+    Time :   0 ;   FunctionValue : 0 ;
+    Time : 1.5 ;   FunctionValue : 1 ;
+    Time : 500 ;   FunctionValue : 1 ;
+  ;
+;
+
+Gravity:
+  GravityVector : -9.200 , 0 , 0 ;
+  TimeFunction : gravity_schedule ;
+;
+
+AirProperties :
+  AirDensity : 1.300 ;
+  SpeedOfSound : 1.4604e-005 ;
+  GoToParametricString :2;
+# FarFieldFlowVelocity : 0 , 10.0 , 0 ;
+  SlopeOfLiftCurve : 1 ;
+  DragCoefficient : 0.5 ;
+  MomentCoefficients : 0 , 0 ;
+  TimeFunction : air_raising ;
+  # AirtableInterpControlParametersPos : 6 ;
+;
+
+;
+
+ModelAssembly:
+  ModelAssemblyParameters:
+    TypeOfAnalysis: static;
+  ;
+;
+MultibodyAnalysis:
+  SimulationControlParameters:
+    MaximumNumberOfTimeSteps  : 220000;
+    TimeRange                 : 0.0,2.0;
+    TimeStepSizeRange         : 0.01,0.01;
+    ReferenceEnergyValue      : 1.0e+07;
+  ;
+  InitialConditions:;
+
+  TimeStepControlParameters:
+    TimeStepSize              : 0.01;
+    FactorizationFrequency    : 1 ;
+    MaximumNumberOfIterations : 30 ;
+    ConvergenceTolerance      : 1.0e-6 ;
+    ArchivalFrequency         : 5 ;
+    MaximumNumberOfTheseSteps : 999999999;
+  ;
+;
+PostProcessing:;

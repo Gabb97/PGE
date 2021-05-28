@@ -1,0 +1,11 @@
+Sensors :
+
+    Sensor :
+        Name            : HubFixedForces ;
+        Beam            : drive_train_shaft_1 ;
+        Sensing         : Forces ;
+        InReferenceFrame: local ;
+        EtaValue        : 0.5 ;
+    ;
+
+;

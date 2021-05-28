@@ -1,0 +1,169 @@
+# ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+# parametric nb rated 1
+
+
+BeginParametricString : 1 ;
+	File             : .\..\..\..\Wind\Gusty_Wind\Wind_r\EOG_50_years;
+EndParametricString : 1 ;
+
+BeginParametricString : 2 ;
+    InitialWindGridTime:  9.3;
+EndParametricString : 2 ;
+
+BeginParametricString : 3 ;
+      FarFieldFlowVelocity : 0 , 9.0 , 0 ;
+EndParametricString : 3 ;
+
+BeginParametricString : 4 ;
+	File : .\..\DLC_NWP\Output\Static\StaticSimulationOutput_9.rcv ;
+EndParametricString : 4 ;
+
+
+# ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+# parametric nb cutout 1
+
+
+BeginParametricString : 1 ;
+	File             : .\..\..\..\Wind\Gusty_Wind\Wind_o\EOG_50_years;
+EndParametricString : 1 ;
+
+BeginParametricString : 2 ;
+    InitialWindGridTime:  9.3;
+EndParametricString : 2 ;
+
+BeginParametricString : 3 ;
+      FarFieldFlowVelocity : 0 , 25 , 0 ;
+EndParametricString : 3 ;
+
+BeginParametricString : 4 ;
+	File : .\..\DLC_NWP\Output\Static\StaticSimulationOutput_25.rcv ;
+EndParametricString : 4 ;
+
+# ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+# ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+# parametric nb rated 1
+
+
+BeginParametricString : 1 ;
+	File             : .\..\..\..\Wind\Gusty_Wind\Wind_r\EOG_50_years;
+EndParametricString : 1 ;
+
+BeginParametricString : 2 ;
+    InitialWindGridTime: 10.0;
+EndParametricString : 2 ;
+
+BeginParametricString : 3 ;
+      FarFieldFlowVelocity : 0 , 9.0 , 0 ;
+EndParametricString : 3 ;
+
+BeginParametricString : 4 ;
+	File : .\..\DLC_NWP\Output\Static\StaticSimulationOutput_9.rcv ;
+EndParametricString : 4 ;
+
+
+# ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+# parametric nb cutout 1
+
+
+BeginParametricString : 1 ;
+	File             : .\..\..\..\Wind\Gusty_Wind\Wind_o\EOG_50_years;
+EndParametricString : 1 ;
+
+BeginParametricString : 2 ;
+    InitialWindGridTime: 10.0;
+EndParametricString : 2 ;
+
+BeginParametricString : 3 ;
+      FarFieldFlowVelocity : 0 , 25 , 0 ;
+EndParametricString : 3 ;
+
+BeginParametricString : 4 ;
+	File : .\..\DLC_NWP\Output\Static\StaticSimulationOutput_25.rcv ;
+EndParametricString : 4 ;
+
+# ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+# ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+# parametric nb rated 2
+
+
+BeginParametricString : 1 ;
+	File             : .\..\..\..\Wind\Gusty_Wind\Wind_r\EOG_50_years;
+EndParametricString : 1 ;
+
+BeginParametricString : 2 ;
+    InitialWindGridTime: 10.5;
+EndParametricString : 2 ;
+
+BeginParametricString : 3 ;
+      FarFieldFlowVelocity : 0 , 9.0 , 0 ;
+EndParametricString : 3 ;
+
+BeginParametricString : 4 ;
+	File : .\..\DLC_NWP\Output\Static\StaticSimulationOutput_9.rcv ;
+EndParametricString : 4 ;
+
+
+# ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+# parametric nb cutout 2
+
+
+BeginParametricString : 1 ;
+	File             : .\..\..\..\Wind\Gusty_Wind\Wind_o\EOG_50_years;
+EndParametricString : 1 ;
+
+BeginParametricString : 2 ;
+    InitialWindGridTime: 10.5;
+EndParametricString : 2 ;
+
+BeginParametricString : 3 ;
+      FarFieldFlowVelocity : 0 , 25 , 0 ;
+EndParametricString : 3 ;
+
+BeginParametricString : 4 ;
+	File : .\..\DLC_NWP\Output\Static\StaticSimulationOutput_25.rcv ;
+EndParametricString : 4 ;
+
+
+# ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+# ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+# parametric nb rated 2
+
+
+BeginParametricString : 1 ;
+	File             : .\..\..\..\Wind\Gusty_Wind\Wind_r\EOG_50_years;
+EndParametricString : 1 ;
+
+BeginParametricString : 2 ;
+    InitialWindGridTime: 11.0;
+EndParametricString : 2 ;
+
+BeginParametricString : 3 ;
+      FarFieldFlowVelocity : 0 , 9.0 , 0 ;
+EndParametricString : 3 ;
+
+BeginParametricString : 4 ;
+	File : .\..\DLC_NWP\Output\Static\StaticSimulationOutput_9.rcv ;
+EndParametricString : 4 ;
+
+
+# ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+# parametric nb cutout 2
+
+
+BeginParametricString : 1 ;
+	File             : .\..\..\..\Wind\Gusty_Wind\Wind_o\EOG_50_years;
+EndParametricString : 1 ;
+
+BeginParametricString : 2 ;
+    InitialWindGridTime: 11.0;
+EndParametricString : 2 ;
+
+BeginParametricString : 3 ;
+      FarFieldFlowVelocity : 0 , 25 , 0 ;
+EndParametricString : 3 ;
+
+BeginParametricString : 4 ;
+	File : .\..\DLC_NWP\Output\Static\StaticSimulationOutput_25.rcv ;
+EndParametricString : 4 ;
+
+# ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++

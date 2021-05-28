@@ -1,8 +1,0 @@
-%------------------------------% 
-% Point masses along the blade % 
-%------------------------------% 
-
-
-% Distance from root [-] | Chordwise Position    | Mass (kg)    
-
-      0.320512820512821      50.00       0.00  

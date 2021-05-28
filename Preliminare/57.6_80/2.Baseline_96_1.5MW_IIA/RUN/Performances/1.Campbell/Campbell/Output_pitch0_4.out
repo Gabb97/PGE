@@ -42,7 +42,7 @@
                                 
  *****************************************************
 
-                 Fri May 21 14:05:35 2021
+                 Thu May 27 14:21:29 2021
 
 
 
@@ -7669,7 +7669,7 @@
 
  End of process: [ModelInput]
  Number of errors =     0
- CPU time =  0.00000e+00 (sec)
+ CPU time =  1.00000e+00 (sec)
 
 
 
@@ -23422,7 +23422,7 @@
 
  End of process: [MultibodyAnalysis]
  Number of errors =     0
- CPU time =  3.00000e+00 (sec)
+ CPU time =  2.00000e+00 (sec)
 
 
 
@@ -23434,4 +23434,4 @@
 
  End of process: [PostProcessing]
  Number of errors =     0
- CPU time =  4.00000e+00 (sec)
+ CPU time =  3.00000e+00 (sec)
